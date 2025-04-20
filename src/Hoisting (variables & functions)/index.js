@@ -19,3 +19,8 @@ function sayHello(){
 }
 
 // Practice 4: Function Expression Hoisting
+
+// greet()
+// var greet = function(){
+//     console.log('Hi')
+// }
