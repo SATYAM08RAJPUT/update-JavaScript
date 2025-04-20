@@ -17,3 +17,5 @@ sayHello()
 function sayHello(){
     console.log("Hello")
 }
+
+// Practice 4: Function Expression Hoisting
