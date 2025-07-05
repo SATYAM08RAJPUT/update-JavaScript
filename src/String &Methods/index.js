@@ -242,3 +242,6 @@ console.log('trimStart:', str34.trimStart())
 
 let str35 = "Hello World!     ";
 console.log("trimEnd(): ", str35.trimEnd())
+
+let str36 = "     GPT is smart!";
+console.log('trimStart:-', str36.trimStart())
