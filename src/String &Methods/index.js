@@ -233,3 +233,9 @@ let str33 = "   User@Example.Com   ";
 console.log('trim(): ', str33.trim().toLowerCase())
 
 console.log('Done for trim method: ')
+
+// .trimStart() → Removes leading spaces (from the beginning)
+console.log(".trimStart()")
+
+let str34 = "    Hello World!";
+console.log('trimStart:', str34.trimStart())
