@@ -237,5 +237,5 @@ console.log('Done for trim method: ')
 // .trimStart() → Removes leading spaces (from the beginning)
 console.log(".trimStart()")
 
-let str34 = "    Hello World!";
+let str34 = "  Hello World!";
 console.log('trimStart:', str34.trimStart())
