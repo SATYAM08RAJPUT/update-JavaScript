@@ -239,3 +239,6 @@ console.log(".trimStart()")
 
 let str34 = "  Hello World!";
 console.log('trimStart:', str34.trimStart())
+
+let str35 = "Hello World!     ";
+console.log("trimEnd(): ", str35.trimEnd())
