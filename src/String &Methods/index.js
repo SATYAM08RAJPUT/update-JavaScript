@@ -172,3 +172,6 @@ console.log("substr:", str24.substr(2,6))
 
 let str25 = "Programming";
 console.log('substr: ', str25.substr(6))
+
+let str26 = "Frontend";
+console.log("substr: ", str26.substr(-7,2))
