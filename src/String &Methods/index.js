@@ -169,3 +169,6 @@ console.log("substr: ", str23.substr(7,5))
 
 let str24 = "satyam Rajput"
 console.log("substr:", str24.substr(2,6))
+
+let str25 = "Programming";
+console.log('substr: ', str25.substr(6))
