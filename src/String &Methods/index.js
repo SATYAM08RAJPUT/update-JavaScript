@@ -175,3 +175,5 @@ console.log('substr: ', str25.substr(6))
 
 let str26 = "Frontend";
 console.log("substr: ", str26.substr(-7,2))
+
+console.log("Done for substr Topic")
