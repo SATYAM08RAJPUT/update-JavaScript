@@ -182,3 +182,6 @@ console.log("Done for substr Topic")
 console.log("New Method: Modifying")
 console.log("touppercase() method")
 // toUpperCase() → Converts to uppercase
+
+let name = "CHATGRP";
+console.log("name:", name.toLocaleLowerCase())
