@@ -189,3 +189,6 @@ console.log("name:", name.toLocaleLowerCase())
 
 let userInput = "hello world";
 console.log("touppercase(): ", userInput.toUpperCase())
+
+let word = "javascript";
+console.log("touppercase(): ", word.toUpperCase())
