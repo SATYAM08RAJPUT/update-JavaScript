@@ -180,3 +180,5 @@ console.log("Done for substr Topic")
 
 // Modifying
 console.log("New Method: Modifying")
+console.log("touppercase() method")
+// toUpperCase() → Converts to uppercase
