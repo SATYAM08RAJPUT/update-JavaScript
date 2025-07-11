@@ -200,3 +200,5 @@ console.log("toyppercase: ",uppersCase)
 
 let strHello = "HELLO";
 console.log("tolowercase:", strHello.toLowerCase())
+
+console.log("touppercase()")
