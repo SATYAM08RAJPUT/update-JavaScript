@@ -197,3 +197,6 @@ let fruits = ["apple", "banana", "cherry"];
 
 let uppersCase = fruits.map(fruit => fruit.toUpperCase()); 
 console.log("toyppercase: ",uppersCase)
+
+let strHello = "HELLO";
+console.log("tolowercase:", strHello.toLowerCase())
