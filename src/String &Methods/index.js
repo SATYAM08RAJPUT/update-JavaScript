@@ -192,3 +192,8 @@ console.log("touppercase(): ", userInput.toUpperCase())
 
 let word = "javascript";
 console.log("touppercase(): ", word.toUpperCase())
+
+let fruits = ["apple", "banana", "cherry"];
+
+let uppersCase = fruits.map(fruit => fruit.toUpperCase()); 
+console.log("toyppercase: ",uppersCase)
