@@ -225,3 +225,6 @@ console.log("New Topic: trim() → Removes spaces from both sides")
 
 let str31 = "   Hello World!   ";
 console.log("trim:-",str31.trim() )
+
+let str32 = "   Welcome to JavaScript!   ";
+console.log('trim: ', str32.trim())
