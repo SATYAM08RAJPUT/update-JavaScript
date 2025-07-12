@@ -228,3 +228,6 @@ console.log("trim:-",str31.trim() )
 
 let str32 = "   Welcome to JavaScript!   ";
 console.log('trim: ', str32.trim())
+
+let str33 = "   User@Example.Com   ";
+console.log('trim(): ', str33.trim().toLowerCase())
