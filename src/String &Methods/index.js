@@ -231,3 +231,5 @@ console.log('trim: ', str32.trim())
 
 let str33 = "   User@Example.Com   ";
 console.log('trim(): ', str33.trim().toLowerCase())
+
+console.log('Done for trim method: ')
