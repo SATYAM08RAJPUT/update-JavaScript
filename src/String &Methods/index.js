@@ -219,3 +219,6 @@ let str30 = ["Ali", "SARA", "john", "MEENA"];
 const lowerfruits = str30.map((fruit) => console.log(fruit.toLowerCase()))
 
 console.log("Done for tolowercase() method")
+
+// trim() → Removes spaces from both sides
+console.log("New Topic: trim() → Removes spaces from both sides")
