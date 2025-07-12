@@ -222,3 +222,6 @@ console.log("Done for tolowercase() method")
 
 // trim() → Removes spaces from both sides
 console.log("New Topic: trim() → Removes spaces from both sides")
+
+let str31 = "   Hello World!   ";
+console.log("trim:-",str31.trim() )
