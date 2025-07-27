@@ -161,3 +161,5 @@ let str22 = "abcdef";
 console.log("substring: ", str22.substring(4,3))
 
 console.log('Done for method of Substring')
+
+console.log("New Topic- substr")
