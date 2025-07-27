@@ -167,3 +167,5 @@ console.log("New Topic- substr")
 let str23 = "Hello, World!";
 console.log("substr: ", str23.substr(7,5))
 
+let str24 = "satyam Rajput"
+console.log("substr:", str24.substr(2,6))
