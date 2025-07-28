@@ -136,3 +136,6 @@ console.log("slice: ", str16.slice(0))
 console.log("slice:",str16.slice(7))
 
 // Negative Indices
+
+let str17 = "Programming";
+console.log("negative slice ", str17.slice(-5))
