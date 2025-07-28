@@ -140,3 +140,6 @@ console.log("slice:",str16.slice(7))
 let str17 = "Programming";
 console.log("negative slice ", str17.slice(-5))
 console.log("negative Slice:", str17.slice(-3,-1))
+
+let str18 = "Automation";
+console.log("Negative Slice: ", str18.slice(-7,-5))
