@@ -132,3 +132,4 @@ console.log("Extracting")
 let str16 = "Hello, world!";
 console.log("slice: ", str16.slice(0,5))
 console.log("Slice: ", str16.slice(7,13))
+console.log("slice: ", str16.slice(0))
