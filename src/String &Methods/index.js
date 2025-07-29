@@ -128,3 +128,6 @@ console.log("Done for method")
 
 // Extracting
 console.log("Extracting")
+
+let str16 = "Hello, world!";
+console.log("slice: ", str16.slice(0,5))
