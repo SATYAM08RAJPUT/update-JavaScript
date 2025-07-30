@@ -81,3 +81,6 @@ console.log('Done for Searching Method')
 
 console.log('includes() → Checks if string contains substring')
 // includes() → Checks if string contains substring
+
+let text6 = "I love JavaScript";
+console.log('includes', text6.includes('love'))
