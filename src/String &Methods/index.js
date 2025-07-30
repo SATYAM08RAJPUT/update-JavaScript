@@ -89,3 +89,6 @@ console.log('includes', text6.includes('love'))
 let fruit = "Mango";
 console.log('includes:', fruit.includes("man"))
 console.log("Case sensitive", fruit.toLocaleLowerCase().includes("man"))
+
+let product = "Samsung Galaxy S21";
+console.log("includes", product.includes("Galaxy"))
