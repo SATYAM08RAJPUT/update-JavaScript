@@ -84,3 +84,7 @@ console.log('includes() → Checks if string contains substring')
 
 let text6 = "I love JavaScript";
 console.log('includes', text6.includes('love'))
+
+
+let fruit = "Mango";
+console.log('includes:', fruit.includes("man"))
