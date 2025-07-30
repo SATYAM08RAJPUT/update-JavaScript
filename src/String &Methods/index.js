@@ -92,3 +92,7 @@ console.log("Case sensitive", fruit.toLocaleLowerCase().includes("man"))
 
 let product = "Samsung Galaxy S21";
 console.log("includes", product.includes("Galaxy"))
+
+let email = "user@example.com";
+console.log("includes:", email.includes("example"))
+console.log("includes", email.includes("com"))
