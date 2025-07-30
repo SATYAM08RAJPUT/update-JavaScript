@@ -88,3 +88,4 @@ console.log('includes', text6.includes('love'))
 
 let fruit = "Mango";
 console.log('includes:', fruit.includes("man"))
+console.log("Case sensitive", fruit.toLocaleLowerCase().includes("man"))
