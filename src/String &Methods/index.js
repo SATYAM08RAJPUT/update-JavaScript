@@ -96,3 +96,5 @@ console.log("includes", product.includes("Galaxy"))
 let email = "user@example.com";
 console.log("includes:", email.includes("example"))
 console.log("includes", email.includes("com"))
+
+console.log("Done Includes method")
