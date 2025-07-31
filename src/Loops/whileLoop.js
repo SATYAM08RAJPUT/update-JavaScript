@@ -30,7 +30,6 @@ while (i2<=10) {
 console.log("Question.4: ")
 // Question.4:  Sum of first 5 natural numbers; 
 
-
 let i3= 1;
 let storefirst = 0;
 
@@ -40,3 +39,12 @@ while (i3<=5) {
     i3++
 }
 console.log("Natural Number: ",storefirst)
+
+console.log('Question.5:')
+// Even numbers from 2 to 20
+
+let i4 = 2;
+while (i4<=20) {
+    console.log(i4)
+    i4 += 2
+}
