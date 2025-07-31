@@ -20,3 +20,9 @@ while (i1>=1) {
 
 console.log("Question.3: ")
 // Question.3: 5 ka table print karna
+
+let i2 = 1;
+while (i2<=10) {
+    console.log(i2*5)
+    i2++
+}
