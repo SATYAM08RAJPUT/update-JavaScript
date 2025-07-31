@@ -26,3 +26,17 @@ while (i2<=10) {
     console.log(i2*5)
     i2++
 }
+
+console.log("Question.4: ")
+// Question.4:  Sum of first 5 natural numbers; 
+
+
+let i3= 1;
+let storefirst = 0;
+
+while (i3<=5) {
+    console.log(i3);
+    storefirst +=i3
+    i3++
+}
+console.log("Natural Number: ",storefirst)
