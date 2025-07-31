@@ -17,3 +17,6 @@ while (i1>=1) {
     console.log(i1);
     i1--
 }
+
+console.log("Question.3: ")
+// Question.3: 5 ka table print karna
