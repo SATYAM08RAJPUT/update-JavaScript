@@ -162,3 +162,13 @@ console.log("Largest Number from Array: ",storeLargest)
 
 console.log("Question.6:")
 // Question.6: Find the smallest number in an array using a loop.
+
+const array2 =[1,2,0,30,40,400,500]
+let storeSmallest = array2[0]
+
+for(let i=0;i<=array2.length-1;i++){
+    if(array2[i] < storeSmallest){
+        storeSmallest = array2[i]
+    }
+}
+console.log(storeSmallest)
