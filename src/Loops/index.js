@@ -176,10 +176,10 @@ console.log("Smallest Number:",storeSmallest)
 console.log("Question.7: ")
 //Question.7: Count how many digits are in a number.
 
-let guesNumber = 23458;
+let guesNumber = 8954884738;
 let digitCount = 0
 
 for(let i=guesNumber;i>0;i=(Math.floor(i/10))){
         digitCount++
 }
-console.log(digitCount)
+console.log("Digits: -",digitCount)
