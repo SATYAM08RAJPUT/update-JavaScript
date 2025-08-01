@@ -172,3 +172,6 @@ for(let i=0;i<=array2.length-1;i++){
     }
 }
 console.log("Smallest Number:",storeSmallest)
+
+console.log("Question.7: ")
+//Question.7: Count how many digits are in a number.
