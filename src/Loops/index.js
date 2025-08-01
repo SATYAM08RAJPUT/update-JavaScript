@@ -160,5 +160,5 @@ for(let i=0;i<=array1.length-1;i++){
 }
 console.log("Largest Number from Array: ",storeLargest)
 
-console.log("Question.6: ")
+console.log("Question.6:")
 // Question.6: Find the smallest number in an array using a loop.
