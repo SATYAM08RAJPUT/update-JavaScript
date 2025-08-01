@@ -200,8 +200,11 @@ if(primeNumber<=1){
         }
     }
 }
+
 if(isPrime){
     console.log("isPrime Number:",primeNumber)
 } else{
     console.log("is not Prime Number:", primeNumber)
 }
+
+console.log('Question.9: ')
