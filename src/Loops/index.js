@@ -171,4 +171,4 @@ for(let i=0;i<=array2.length-1;i++){
         storeSmallest = array2[i]
     }
 }
-console.log(storeSmallest)
+console.log("Smallest Number:",storeSmallest)
