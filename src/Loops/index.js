@@ -98,3 +98,5 @@ for(let i=storeReverseNumber.length-1;i>=0;i--){
         storing+= storeReverseString[i]
 }
 console.log(storing)
+
+console.log("Question.2: ")
