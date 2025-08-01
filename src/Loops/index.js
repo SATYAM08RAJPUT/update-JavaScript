@@ -183,3 +183,6 @@ for(let i=guesNumber;i>0;i=(Math.floor(i/10))){
         digitCount++
 }
 console.log("Digits: -",digitCount)
+
+console.log("Question.8:-")
+// Check if a number is prime or not.
