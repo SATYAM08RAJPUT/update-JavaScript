@@ -188,7 +188,7 @@ console.log("Question.8:-")
 //Question.8: Check if a number is prime or not.
 
 let primeNumber = "7";
-let isPrime = true
+let isPrime = true;
 
 if(primeNumber<=1){
     isPrime = false
@@ -200,7 +200,6 @@ if(primeNumber<=1){
         }
     }
 }
-
 if(isPrime){
     console.log("isPrime Number:",primeNumber)
 } else{
