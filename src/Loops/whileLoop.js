@@ -48,3 +48,5 @@ while (i4<=20) {
     console.log(i4)
     i4 += 2
 }
+
+console.log("Question.6: ")
