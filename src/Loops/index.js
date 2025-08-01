@@ -100,3 +100,4 @@ for(let i=storeReverseNumber.length-1;i>=0;i--){
 console.log(storing)
 
 console.log("Question.2: ")
+// Count vowels and consonants in a string.
