@@ -185,4 +185,24 @@ for(let i=guesNumber;i>0;i=(Math.floor(i/10))){
 console.log("Digits: -",digitCount)
 
 console.log("Question.8:-")
-// Check if a number is prime or not.
+//Question.8: Check if a number is prime or not.
+
+let primeNumber = "7";
+let isPrime = true
+
+if(primeNumber<=1){
+    isPrime = false
+}else{
+    for(let i=2;i<primeNumber;i++){
+        if(primeNumber % i ===0){
+            isPrime = false
+            break;
+        }
+    }
+}
+
+if(isPrime){
+    console.log("isPrime Number:",primeNumber)
+} else{
+    console.log("is not Prime Number:", primeNumber)
+}
