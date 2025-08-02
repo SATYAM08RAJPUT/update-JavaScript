@@ -215,5 +215,5 @@ let sroreNumber = 1
 for(let i= 0;i<=digitNumber.toString().length;i++){
    sroreNumber +=i
 }
-console.log(sroreNumber)
+console.log("Store Sum of Digit: ",sroreNumber)
 
