@@ -209,3 +209,5 @@ if(isPrime){
 
 console.log('Question.9: ')
 // Question.9: Print all prime numbers between 1 and 100.
+
+let findPrimeNumber =0;
