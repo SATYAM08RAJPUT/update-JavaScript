@@ -208,6 +208,12 @@ if(isPrime){
 }
 
 console.log('Question.9: ')
-// Question.9: Print all prime numbers between 1 and 100.
+// Question.9: Calculate the sum of digits of a number.
 
-let findPrimeNumber =0;
+let digitNumber = 123456789;
+let sroreNumber = 1
+for(let i= 0;i<=digitNumber.toString().length;i++){
+   sroreNumber +=i
+}
+console.log(sroreNumber)
+
