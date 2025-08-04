@@ -6,3 +6,6 @@ console.log("Question.1:")
 for(let i=1;i<=10;i++){
     console.log(i)
 }
+
+console.log('Question.2:')
+// Print even numbers between 1 and 50.
