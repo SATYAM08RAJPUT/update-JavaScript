@@ -152,5 +152,22 @@ checkVowel("b")
 
 console.log('Done Noraml Conditional Questions')
 console.log("Functions with return-05/08/2025")
+
 //Question.1: Write a function add(a, b) that returns the sum of two numbers.
 console.log("Starting: Functions with return")
+
+function addFunReturn(a,b){
+    return a+b
+}
+const firstReturn = addFunReturn(7,3)
+console.log("Add two Values:-",firstReturn)
+
+// Area of Rectangle
+//Question:2:- Create a function areaRectangle(length, width) that returns the area.
+console.log("Question.2")
+
+function calculateAreaReturn(l,w){
+    return l*w
+}
+const secondReturn = calculateAreaReturn(20,8)
+console.log("Area of areaRectangle:-",secondReturn)
