@@ -151,3 +151,6 @@ checkVowel("i")
 checkVowel("b")
 
 console.log('Done Noraml Conditional Questions')
+console.log("Functions with return-05/08/2025")
+//Question.1: Write a function add(a, b) that returns the sum of two numbers.
+console.log("Starting: Functions with return")
