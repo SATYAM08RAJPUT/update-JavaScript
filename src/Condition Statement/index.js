@@ -149,3 +149,5 @@ checkVowel("s")
 checkVowel("z")
 checkVowel("i")
 checkVowel("b")
+
+console.log('Done Noraml Conditional Questions')
