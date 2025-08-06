@@ -206,3 +206,30 @@ const fiveReturn = square(9)
 const fiveFirstReturn = square(13)
 console.log("Squre of 9:",fiveReturn)
 console.log("Squre of 13:",fiveFirstReturn)
+
+// Intermediate Level
+console.log("Intermediate Level")
+// Factorial of a Number
+// Question.1: Write a function factorial(n) that returns the factorial of a number.
+console.log("Question.1: ")
+
+function factorial(n){
+    if(n<0){
+        return "Factorial is not defined a Negative number"
+    } else if(n==0 || n==1){
+        return "1"
+    } else {
+        let fact = 1
+        for(let i =2;i<=n;i++){
+            fact *=i
+        }
+        return fact
+    }
+
+}
+const factorialCal =  factorial(-1)
+console.log("Factorial of 0:", factorialCal)
+const factorialSec = factorial(0)
+console.log(factorialSec)
+const factorialthird = factorial(5)
+console.log(factorialthird)
