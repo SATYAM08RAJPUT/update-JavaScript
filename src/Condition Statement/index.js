@@ -191,11 +191,18 @@ function isEven(num){
     return num %2 === 0 ? "Event Number" : "Odd Number"
 }
 const fourReturn = isEven(2)
-const fiveFirstReturn = isEven(9)
+const fourFirstReturn = isEven(9)
 console.log(fourReturn)
-console.log(fiveFirstReturn)
+console.log(fourFirstReturn)
 
 // Square of a Number
-// Question.4: Create a function square(num) that returns the square.
+// Question.5: Create a function square(num) that returns the square.
 console.log("Question.5:")
 
+function square(num){
+    return (num*num)
+}
+const fiveReturn = square(9)
+const fiveFirstReturn = square(13)
+console.log("Squre of 9:",fiveReturn)
+console.log("Squre of 13:",fiveFirstReturn)
