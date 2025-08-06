@@ -171,3 +171,13 @@ function calculateAreaReturn(l,w){
 }
 const secondReturn = calculateAreaReturn(20,8)
 console.log("Area of areaRectangle:-",secondReturn)
+
+// Convert Celsius to Fahrenheit
+//Question.3: Write a function toFahrenheit(celsius) that returns the temperature in Fahrenheit.
+console.log("Question.3:")
+
+function toFahrenheit(celsius){
+    return (celsius*(9/5)+32)
+}
+const thrirdReturn = toFahrenheit(78)
+console.log(thrirdReturn)
