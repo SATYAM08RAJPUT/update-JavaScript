@@ -194,3 +194,8 @@ const fourReturn = isEven(2)
 const fiveFirstReturn = isEven(9)
 console.log(fourReturn)
 console.log(fiveFirstReturn)
+
+// Square of a Number
+// Question.4: Create a function square(num) that returns the square.
+console.log("Question.5:")
+
