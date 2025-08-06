@@ -182,4 +182,15 @@ function toFahrenheit(celsius){
 const thrirdReturn = toFahrenheit(78)
 console.log(thrirdReturn)
 
-console.log("Question.4")
+
+// Even or Odd Checker
+// Question.4: Write a function isEven(num) that returns "Even" or "Odd".
+console.log("Question.4:")
+
+function isEven(num){
+    return num %2 === 0 ? "Event Number" : "Odd Number"
+}
+const fourReturn = isEven(2)
+const fiveFirstReturn = isEven(9)
+console.log(fourReturn)
+console.log(fiveFirstReturn)
