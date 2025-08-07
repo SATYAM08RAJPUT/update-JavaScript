@@ -281,3 +281,18 @@ console.log(checkPalindromethird)
 //Question.4:  Write a function countVowels(str) that returns the number of vowels in a string.
 console.log("Question.4:")
 
+function countVowels(str){
+    let count = 0;
+    const vowels = "aeiousAEIOUS"
+    for(let i=0;i<str.length;i++){
+        if(vowels.includes(str[i])){
+            count++
+        }
+    }
+    return count
+}
+
+const vowelCount = countVowels("Hello")
+console.log(vowelCount)
+const vowelCountSec = countVowels("Satyam")
+console.log(vowelCountSec)
