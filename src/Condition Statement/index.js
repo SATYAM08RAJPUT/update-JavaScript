@@ -312,12 +312,18 @@ const firstReves =revereStr("Hello")
 console.log(firstReves)
 
 
-// function string(str){
-//     let string = ""
-//     for(let i=0;i<str.length;i++){
-//         str += str[i]
-//     }
-//     return str
-// }
-// const firstReverseStr = string("Hello")
-// console.log(firstReverseStr)
+// A String
+// Question.6: Create a function String(str) that returns the string version
+console.log("Question.6:")
+
+function stringSquence(str){
+    let string = ""
+    for(let i=0; i <str.length; i++){
+        string += str[i]
+    }
+    return string
+}
+const firstStr = stringSquence("Hello")
+console.log(firstStr)
+const secondStr =  stringSquence("Satyam")
+console.log(secondStr)
