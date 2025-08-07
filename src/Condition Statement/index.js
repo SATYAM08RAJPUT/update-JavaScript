@@ -255,4 +255,22 @@ console.log(checkmaxFirst)
 const checkSecond = maxOfThree(200,34,90)
 console.log(checkSecond)
 
+// Palindrome Checker
+// Question.3: Write a function isPalindrome(word) that returns true if the word is a palindrome,
+//  otherwise false
 console.log("Question.3:")
+
+function isPalindrome(word){
+    for(let i=0;i<word.length /2;i++){
+            if(word[i] !== word[word.length-1-i]){
+                return 'false'
+            }
+    }
+    return "true"
+}
+const checkPalinrome = isPalindrome("adda")
+console.log(checkPalinrome)
+const checkPalindromeSecond = isPalindrome("madam")
+console.log(checkPalindromeSecond)
+const checkPalindromethird = isPalindrome("Goal")
+console.log(checkPalindromethird)
