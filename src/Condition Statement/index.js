@@ -254,3 +254,5 @@ const checkmaxFirst = maxOfThree(23,24,25)
 console.log(checkmaxFirst)
 const checkSecond = maxOfThree(200,34,90)
 console.log(checkSecond)
+
+console.log("Question.3:")
