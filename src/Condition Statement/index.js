@@ -233,3 +233,24 @@ const factorialSec = factorial(0)
 console.log(factorialSec)
 const factorialthird = factorial(5)
 console.log(factorialthird)
+
+
+// Find Maximum of Three Numbers
+// Question.2: Write a function maxOfThree(a, b, c) that returns the largest number.
+console.log("Question.2: ")
+
+function maxOfThree(a,b,c){
+    if(a> b &&  a>c){
+        return "A is greater"
+    } else if(b>a && b>c){
+        return "B is Greater"
+    } else if (c>a && c>b){
+        return "C is greater"
+    } else{
+        return "invalid Number"
+    }
+}
+const checkmaxFirst = maxOfThree(23,24,25)
+console.log(checkmaxFirst)
+const checkSecond = maxOfThree(200,34,90)
+console.log(checkSecond)
