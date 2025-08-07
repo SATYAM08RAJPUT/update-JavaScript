@@ -274,3 +274,10 @@ const checkPalindromeSecond = isPalindrome("madam")
 console.log(checkPalindromeSecond)
 const checkPalindromethird = isPalindrome("Goal")
 console.log(checkPalindromethird)
+
+
+
+// Count Vowels in a String
+//Question.4:  Write a function countVowels(str) that returns the number of vowels in a string.
+console.log("Question.4:")
+
