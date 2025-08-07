@@ -300,3 +300,24 @@ console.log(vowelCountSec)
 // Reverse a String
 // Question.5: Create a function reverseString(str) that returns the reversed version
 console.log("Question.5:")
+
+function revereStr(str){
+    let reverStr = "";
+    for (let i= str.length-1;i>=0;i--){
+        reverStr += str[i]
+    }
+    return reverStr
+}
+const firstReves =revereStr("Hello")
+console.log(firstReves)
+
+
+// function string(str){
+//     let string = ""
+//     for(let i=0;i<str.length;i++){
+//         str += str[i]
+//     }
+//     return str
+// }
+// const firstReverseStr = string("Hello")
+// console.log(firstReverseStr)
