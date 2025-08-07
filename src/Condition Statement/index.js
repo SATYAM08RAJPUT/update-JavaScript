@@ -296,3 +296,7 @@ const vowelCount = countVowels("Hello")
 console.log(vowelCount)
 const vowelCountSec = countVowels("Satyam")
 console.log(vowelCountSec)
+
+// Reverse a String
+// Question.5: Create a function reverseString(str) that returns the reversed version
+console.log("Question.5:")
