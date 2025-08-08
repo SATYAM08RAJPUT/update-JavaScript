@@ -123,9 +123,9 @@ console.log("Question.7")
 
 function calculateLeapYear(leapYear){
 if(leapYear % 4 ==  0 && leapYear %400 == 0){
-        console.log("this is leap Year")
+    console.log("this is leap Year")
 } else{
-    console.log('this is not a leap Year')
+console.log('this is not a leap Year')
 }
 }   
 calculateLeapYear(2024)
@@ -221,7 +221,7 @@ return "1"
 } else {
 let fact = 1
 for(let i =2;i<=n;i++){
-    fact *=i
+fact *=i
 }
 return fact
 }
@@ -262,9 +262,9 @@ console.log("Question.3:")
 
 function isPalindrome(word){
 for(let i=0;i<word.length /2;i++){
-    if(word[i] !== word[word.length-1-i]){
-        return 'false'
-    }
+if(word[i] !== word[word.length-1-i]){
+    return 'false'
+}
 }
 return "true"
 }
@@ -286,7 +286,7 @@ let count = 0;
 const vowels = "aeiousAEIOUS"
 for(let i=0;i<str.length;i++){
 if(vowels.includes(str[i])){
-    count++
+count++
 }
 }
 return count
@@ -338,28 +338,28 @@ console.log("✅ Switch Statement Practice Questions");
 function calculateDays(day){
 switch(day){
 case 1:
-    console.log("monday");
-    break;
-        case 2:
-    console.log("Tuesday");
-    break;
-        case 3:
-    console.log("Wednesday");
-    break;
-        case 4:
-    console.log("Thrusday");
-    break;
-        case 5:
-    console.log("Friday");
-    break;
-        case 6:
-    console.log("Saturday");
-    break;
-        case 7:
-    console.log("Sunday");
-    break;
-    default: 
-    console.log("weekend")
+console.log("monday");
+break;
+    case 2:
+console.log("Tuesday");
+break;
+    case 3:
+console.log("Wednesday");
+break;
+    case 4:
+console.log("Thrusday");
+break;
+    case 5:
+console.log("Friday");
+break;
+    case 6:
+console.log("Saturday");
+break;
+    case 7:
+console.log("Sunday");
+break;
+default: 
+console.log("weekend")
 }
 }
 calculateDays(5)
@@ -367,22 +367,41 @@ calculateDays(9)
 
 // Simple Calculator
 // Question.2: Write a switch to perform +, -, *, / between two numbers based on an operator.
-console.log("Question.2:")
 
 function calculator(a,b, type){
-    switch(type){
-        case 'add': 
-        console.log(a+b)
-        break;
-        case "sub": 
-        console.log(a-b)
-        break;
-        case "multi": 
-        console.log(a*b)
-        break;
-        case "divide":
-            console.log(a/b)
-    }
+switch(type){
+    case 'add': 
+    console.log(a+b)
+    break;
+    case "sub": 
+    console.log(a-b)
+    break;
+    case "multi": 
+    console.log(a*b)
+    break;
+    case "divide":
+        console.log(a/b)
+}
 }
 calculator(2,4,"add")
 calculator(4,5,"multi")
+
+
+//Question.3 Traffic Light Instructions
+console.log("Question.3:")
+
+function trafficLightControl(type){
+switch(type){
+    case "red":
+                console.log("Please Stop")
+                break;
+                case "yellow":
+                console.log("Please wait")
+                break;
+                case "green": 
+                console.log("Please Go")
+}
+}
+trafficLightControl("red")
+trafficLightControl('green')
+trafficLightControl('yellow')
