@@ -329,3 +329,9 @@ const secondStr =  stringSquence("Satyam")
 console.log(secondStr)
 const thirdStr = stringSquence("satyam")
 console.log(thirdStr)
+
+console.log("✅ Switch Statement Practice Questions");
+
+// Print Day Name
+// Question.1: Given a number (1 to 7), print the day of the week (e.g., 1 = Monday, 7 = Sunday) using switch
+
