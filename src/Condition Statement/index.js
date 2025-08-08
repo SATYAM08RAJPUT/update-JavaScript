@@ -358,7 +358,31 @@ case 1:
         case 7:
     console.log("Sunday");
     break;
+    default: 
+    console.log("weekend")
 }
 }
 calculateDays(5)
+calculateDays(9)
 
+// Simple Calculator
+// Question.2: Write a switch to perform +, -, *, / between two numbers based on an operator.
+console.log("Question.2:")
+
+function calculator(a,b, type){
+    switch(type){
+        case 'add': 
+        console.log(a+b)
+        break;
+        case "sub": 
+        console.log(a-b)
+        break;
+        case "multi": 
+        console.log(a*b)
+        break;
+        case "divide":
+            console.log(a/b)
+    }
+}
+calculator(2,4,"add")
+calculator(4,5,"multi")
