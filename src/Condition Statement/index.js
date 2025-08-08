@@ -400,8 +400,34 @@ switch(type){
                 break;
                 case "green": 
                 console.log("Please Go")
+                break;
+                default: 
+                console.log("invalid color")
 }
 }
 trafficLightControl("red")
 trafficLightControl('green')
 trafficLightControl('yellow')
+trafficLightControl("Blue")
+
+
+// Fruit Availability Checker
+// Question.4: Input a fruit name. If it’s "Apple", "Banana" or "Mango", print available. Else, 
+// print "Not Available".
+console.log("Question.4:")
+
+
+function fruitsStoke(type){
+    switch(type){
+        case "Apple": 
+        case "Banana":
+        case "Mango": 
+        console.log("Availabe")
+        break;
+        default:
+        console.log("Not Available")
+    }
+}
+fruitsStoke("Chuku")
+fruitsStoke('Apple')
+fruitsStoke("Mango")
