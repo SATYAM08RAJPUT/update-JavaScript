@@ -476,3 +476,6 @@ function createMenu(type){
 console.log(createMenu('Welcome'))
 console.log(createMenu("Home"))
 console.log(createMenu("Profile"))
+
+// Console.log("Switch Question's")
+Console.log("Switch Question's")
