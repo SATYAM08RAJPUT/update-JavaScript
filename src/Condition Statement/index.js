@@ -431,3 +431,7 @@ function fruitsStoke(type){
 fruitsStoke("Chuku")
 fruitsStoke('Apple')
 fruitsStoke("Mango")
+
+
+// Question.5: Vowel Checker
+console.log("Question.5")
