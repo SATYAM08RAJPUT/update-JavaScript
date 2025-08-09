@@ -455,3 +455,6 @@ switch(value){
 }
 console.log(checkVowelSwitchs("a"))
 console.log(checkVowelSwitchs("W"))
+
+// Question.6: Create a menu with options: Home, Profile, Settings, Logout.
+console.log("Question.6:")
