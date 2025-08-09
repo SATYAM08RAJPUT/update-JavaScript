@@ -458,3 +458,21 @@ console.log(checkVowelSwitchs("W"))
 
 // Question.6: Create a menu with options: Home, Profile, Settings, Logout.
 console.log("Question.6:")
+
+function createMenu(type){
+    switch(type){
+        case "Home":
+            return "Welcome to Home"
+            case "Profile": 
+            return "Welcome to Profile"
+            case "Settings": 
+            return "Welcome to Settings"
+            case "Logout": 
+            return "Logout"
+            default:
+            return "invalid Output"
+    }
+}
+console.log(createMenu('Welcome'))
+console.log(createMenu("Home"))
+console.log(createMenu("Profile"))
