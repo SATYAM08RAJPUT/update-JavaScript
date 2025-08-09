@@ -123,7 +123,7 @@ console.log("Question.7")
 
 function calculateLeapYear(leapYear){
 if(leapYear % 4 ==  0 && leapYear %400 == 0){
-    console.log("this is leap Year")
+console.log("this is leap Year")
 } else{
 console.log('this is not a leap Year')
 }
@@ -263,7 +263,7 @@ console.log("Question.3:")
 function isPalindrome(word){
 for(let i=0;i<word.length /2;i++){
 if(word[i] !== word[word.length-1-i]){
-    return 'false'
+return 'false'
 }
 }
 return "true"
@@ -340,22 +340,22 @@ switch(day){
 case 1:
 console.log("monday");
 break;
-    case 2:
+case 2:
 console.log("Tuesday");
 break;
-    case 3:
+case 3:
 console.log("Wednesday");
 break;
-    case 4:
+case 4:
 console.log("Thrusday");
 break;
-    case 5:
+case 5:
 console.log("Friday");
 break;
-    case 6:
+case 6:
 console.log("Saturday");
 break;
-    case 7:
+case 7:
 console.log("Sunday");
 break;
 default: 
@@ -370,17 +370,17 @@ calculateDays(9)
 
 function calculator(a,b, type){
 switch(type){
-    case 'add': 
-    console.log(a+b)
-    break;
-    case "sub": 
-    console.log(a-b)
-    break;
-    case "multi": 
-    console.log(a*b)
-    break;
-    case "divide":
-        console.log(a/b)
+case 'add': 
+console.log(a+b)
+break;
+case "sub": 
+console.log(a-b)
+break;
+case "multi": 
+console.log(a*b)
+break;
+case "divide":
+    console.log(a/b)
 }
 }
 calculator(2,4,"add")
@@ -392,17 +392,17 @@ console.log("Question.3:")
 
 function trafficLightControl(type){
 switch(type){
-    case "red":
-                console.log("Please Stop")
-                break;
-                case "yellow":
-                console.log("Please wait")
-                break;
-                case "green": 
-                console.log("Please Go")
-                break;
-                default: 
-                console.log("invalid color")
+case "red":
+            console.log("Please Stop")
+            break;
+            case "yellow":
+            console.log("Please wait")
+            break;
+            case "green": 
+            console.log("Please Go")
+            break;
+            default: 
+            console.log("invalid color")
 }
 }
 trafficLightControl("red")
@@ -418,15 +418,15 @@ console.log("Question.4:")
 
 
 function fruitsStoke(type){
-    switch(type){
-        case "Apple": 
-        case "Banana":
-        case "Mango": 
-        console.log("Availabe")
-        break;
-        default:
-        console.log("Not Available")
-    }
+switch(type){
+    case "Apple": 
+    case "Banana":
+    case "Mango": 
+    console.log("Availabe")
+    break;
+    default:
+    console.log("Not Available")
+}
 }
 fruitsStoke("Chuku")
 fruitsStoke('Apple')
@@ -435,3 +435,23 @@ fruitsStoke("Mango")
 
 // Question.5: Vowel Checker
 console.log("Question.5")
+
+function checkVowelSwitchs(value){
+switch(value){
+    case "a": 
+    return "vowel"    
+    case "i": 
+    return "vowel"
+    case "e": 
+    return "Vowel"
+    case "o":
+    return "vowel"
+    case "u": 
+    return "vowel"
+    default: 
+    console.log("it is consonant")
+
+}
+}
+console.log(checkVowelSwitchs("a"))
+console.log(checkVowelSwitchs("W"))
