@@ -480,8 +480,7 @@ console.log(createMenu("Profile"))
 // Console.log("Switch Question's")
 console.log("10/08/2025")
 
-console.log("Convert a Str into Reverse Str")
-
+console.log("Convert a Str")
 function reverstr(str){
     let storeStr = "";
     for (let i=0;i<str.length;i++){
@@ -491,3 +490,5 @@ function reverstr(str){
 }
 const noramlStr = reverstr("Yellow")
 console.log(noramlStr)
+
+console.log("Convert a Str into Reverse Str")
