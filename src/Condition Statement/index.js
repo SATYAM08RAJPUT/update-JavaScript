@@ -481,14 +481,24 @@ console.log(createMenu("Profile"))
 console.log("10/08/2025")
 
 console.log("Convert a Str")
-function reverstr(str){
+function normalstr(str){
     let storeStr = "";
     for (let i=0;i<str.length;i++){
        storeStr += str[i]
     }
     return storeStr
 }
-const noramlStr = reverstr("Yellow")
+const noramlStr = normalstr("Yellow")
 console.log(noramlStr)
 
 console.log("Convert a Str into Reverse Str")
+
+function revStr(str){
+    let storeStr = "";
+    for (let i=str.length-1;i>=0;i--){
+        storeStr += str[i]
+    }
+    return storeStr
+}
+const revString = revStr("satyam")
+console.log(revString)
