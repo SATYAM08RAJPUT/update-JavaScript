@@ -502,3 +502,5 @@ function revStr(str){
 }
 const revString = revStr("satyam")
 console.log(revString)
+
+console.log("Pratices Done")
