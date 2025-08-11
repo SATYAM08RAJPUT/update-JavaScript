@@ -40,3 +40,6 @@ for(let i=1;i<=100;i++){
     storeSum += i
 }
 console.log(storeSum)
+
+console.log("Question.6:")
+// Question.6: Print the first 10 natural numbers in reverse order.
