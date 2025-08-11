@@ -44,4 +44,4 @@ console.log(storeSum)
 console.log("Question.6:")
 // Question.6: Print the first 10 natural numbers in reverse order.
 
-let storeReverseNumber = 0
+let storeReverseNumber = ""
