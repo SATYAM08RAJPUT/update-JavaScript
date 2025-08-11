@@ -24,3 +24,6 @@ for(let i=0;i<=50;i++){
         console.log(i)
     }
 }
+
+console.log("Question.4:")
+// Question.4 Print the multiplication table of 5.
