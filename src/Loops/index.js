@@ -45,3 +45,7 @@ console.log("Question.6:")
 // Question.6: Print the first 10 natural numbers in reverse order.
 
 let storeReverseNumber = ""
+for(let i=10;i>=0;i--){
+    storeReverseNumber += i
+}
+console.log(storeReverseNumber)
