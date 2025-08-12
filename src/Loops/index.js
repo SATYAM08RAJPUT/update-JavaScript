@@ -50,7 +50,7 @@ for(let i=10;i>=0;i--){
 }
 console.log(storeReverseNumber)
 
-//  console.log("Question.7:")
+ console.log("Question.7:")
 // // Question.7: Find the factorial of a number (e.g., 5!)
 
 let storeFactorial = 1;
