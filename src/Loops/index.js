@@ -90,3 +90,11 @@ console.log("Intermediate Level")
 
 console.log("Question.1:")
 // Reverse a string using a loop.
+
+let storeReverseString = "Hello Satyam";
+let storing = ""
+for(let i=storeReverseNumber.length-1;i>=0;i--){
+        console.log(storeReverseString[i])
+        storing+= storeReverseString[i]
+}
+console.log(storing)
