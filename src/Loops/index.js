@@ -63,3 +63,6 @@ console.log(storeFactorial)
 console.log("Question.8:")
 //Question.8: Print squares of numbers from 1 to 10.
 
+for(let i=1;i<=10;i++){
+    console.log("squares of numbers:-",i*i)
+}
