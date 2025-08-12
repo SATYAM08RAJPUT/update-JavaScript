@@ -49,3 +49,13 @@ for(let i=10;i>=0;i--){
     storeReverseNumber += i
 }
 console.log(storeReverseNumber)
+
+//  console.log("Question.7:")
+// // Question.7: Find the factorial of a number (e.g., 5!)
+
+let storeFactorial = 1;
+
+for (let i=2;i<=5;i++){
+    storeFactorial *= i
+}
+console.log(storeFactorial)
