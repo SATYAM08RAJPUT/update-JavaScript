@@ -75,3 +75,6 @@ for(let i=1;i<=100;i++){
         console.log(i)
     }
 }
+
+console.log("Question.10: ")
+// Question.10: Print all characters of a string one by one.
