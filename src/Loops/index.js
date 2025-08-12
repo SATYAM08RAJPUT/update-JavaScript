@@ -78,3 +78,9 @@ for(let i=1;i<=100;i++){
 
 console.log("Question.10: ")
 // Question.10: Print all characters of a string one by one.
+
+let storeString = "SATYAM"
+
+for(let i=0;i<=storeString.length-1;i++){
+    console.log(storeString[i])
+}
