@@ -69,3 +69,9 @@ for(let i=1;i<=10;i++){
 
 console.log("Question.9:")
 // Question.9: Count how many numbers between 1 and 100 are divisible by 3.
+
+for(let i=1;i<=100;i++){
+    if(i%3==0){
+        console.log(i)
+    }
+}
