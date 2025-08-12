@@ -87,3 +87,6 @@ for(let i=0;i<=storeString.length-1;i++){
 
 console.log("Intermediate Level")
 // Intermediate Level
+
+console.log("Question.1:")
+// Reverse a string using a loop.
