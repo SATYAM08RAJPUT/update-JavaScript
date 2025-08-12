@@ -66,3 +66,6 @@ console.log("Question.8:")
 for(let i=1;i<=10;i++){
     console.log("squares of numbers:-",i*i)
 }
+
+console.log("Question.9:")
+// Question.9: Count how many numbers between 1 and 100 are divisible by 3.
