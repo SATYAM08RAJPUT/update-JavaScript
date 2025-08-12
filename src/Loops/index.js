@@ -59,3 +59,7 @@ for (let i=2;i<=5;i++){
     storeFactorial *= i
 }
 console.log(storeFactorial)
+
+console.log("Question.8:")
+//Question.8: Print squares of numbers from 1 to 10.
+
