@@ -84,3 +84,6 @@ let storeString = "SATYAM"
 for(let i=0;i<=storeString.length-1;i++){
     console.log(storeString[i])
 }
+
+console.log("Intermediate Level")
+// Intermediate Level
