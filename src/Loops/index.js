@@ -134,3 +134,5 @@ for(let i=1;i<=10;i++){
         num2 = nextNumber
         console.log(num2)
 }
+
+console.log("Question.4: ")
