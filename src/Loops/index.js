@@ -120,3 +120,6 @@ for(let i=0; i< storeSting.length;i++){
 }
 console.log("Count Vowel: ",countVowel)
 console.log("Count Consonents: ",consonants)
+
+console.log("Question.3: ")
+// Print the Fibonacci series up to 10 terms.
