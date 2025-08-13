@@ -149,3 +149,13 @@ console.log("Sum of n Number:-",numberSum)
 
 console.log("Questipn.5: ")
 // Question.5: Find the largest number in an array using a loop.
+
+const array1 = [10,20,3,40,800]
+let storeLargest = array1[0]
+for(let i=0;i<=array1.length-1;i++){
+    console.log(array1[i])
+    if(array1[i] >storeLargest){
+        storeLargest= array1[i]
+    }
+}
+console.log(storeLargest)
