@@ -136,3 +136,12 @@ for(let i=1;i<=10;i++){
 }
 
 console.log("Question.4: ")
+// Find the sum of all even numbers between 1 and n.
+
+let numberSum = 0
+let n = 20;
+for(let i=0;i<=n;i++){
+    console.log(i)
+    numberSum += i
+}
+console.log(numberSum)
