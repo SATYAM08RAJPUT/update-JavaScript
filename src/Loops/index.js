@@ -101,3 +101,22 @@ console.log(storing)
 
 console.log("Question.2: ")
 // Count vowels and consonants in a string.
+
+let storeSting = "Satyam Rajput";
+let countVowel = 0;
+let consonants = 0;
+
+for(let i=0; i< storeSting.length;i++){
+    let char = storeSting[i]
+    console.log(char)
+
+    if(char >="a" &&  char<="z"){
+        if(char === "a" || char === "e" || char==="i" || char === "o" || char === "u"){
+            countVowel++;
+        }else {
+            consonants++
+        }
+    }
+}
+console.log("Count Vowel: ",countVowel)
+console.log("Count Consonents: ",consonants)
