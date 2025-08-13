@@ -123,3 +123,14 @@ console.log("Count Consonents: ",consonants)
 
 console.log("Question.3: ")
 // Print the Fibonacci series up to 10 terms.
+
+let num1= 0;
+let num2 =1;
+
+for(let i=1;i<=10;i++){
+        console.log(num1)
+        let nextNumber = num1+num2;
+        num1 = num2;
+        num2 = nextNumber
+        console.log(num2)
+}
