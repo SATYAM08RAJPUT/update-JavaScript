@@ -145,3 +145,6 @@ for(let i=0;i<=n;i++){
     numberSum += i
 }
 console.log("Sum of n Number:-",numberSum)
+
+
+console.log("Questipn.5: ")
