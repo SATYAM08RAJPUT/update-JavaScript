@@ -144,4 +144,4 @@ for(let i=0;i<=n;i++){
     console.log(i)
     numberSum += i
 }
-console.log(numberSum)
+console.log("Sum of n Number:-",numberSum)
