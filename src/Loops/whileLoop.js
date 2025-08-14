@@ -6,4 +6,9 @@ console.log("Question.1: ")
 let i=1;
 while (i<=10) {
     console.log(i)
+    i++;
 }
+
+console.log("Question.2: ")
+// Question.2: 10 se 1 tak reverse counting
+
