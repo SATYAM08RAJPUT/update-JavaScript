@@ -68,3 +68,8 @@ while (i5 < string.length) {
     console.log(string[i5])
     i5++
 }
+
+
+console.log("Question.8: ")
+// Odd numbers from 1 to 15
+
