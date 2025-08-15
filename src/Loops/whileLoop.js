@@ -58,3 +58,6 @@ while (second>0) {
     second--
 }
 console.log("Blast Off")
+
+console.log("Question.7: ")
+// Question.7: String ke characters print karna
