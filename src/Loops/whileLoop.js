@@ -76,9 +76,9 @@ let i6 = 1;
 
 while (i6<=15) {
     if(i6 %2 !== 0){
-        console.log("Number is odd")
+        console.log(i6 +  " Number is odd")
     } else{
-        console.log("Number is Even")
+        console.log(i6 + " Number is Even")
     }
     i6++
 }
