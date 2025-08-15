@@ -61,3 +61,10 @@ console.log("Blast Off")
 
 console.log("Question.7: ")
 // Question.7: String ke characters print karna
+
+let string = "Hello Satyam"
+let i5 =0
+while (i5 < string.length) {
+    console.log(string[i5])
+    i5++
+}
