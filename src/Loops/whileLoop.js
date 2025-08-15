@@ -82,3 +82,5 @@ while (i6<=15) {
     }
     i6++
 }
+
+console.log("Quetion.9: ")
