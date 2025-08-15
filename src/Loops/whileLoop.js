@@ -51,3 +51,10 @@ while (i4<=20) {
 
 console.log("Question.6: ")
 // Question.6: Countdown for Blast 🚀
+
+let second = 5
+while (second>0) {
+    console.log("Blst in " + second + "...")
+    second--
+}
+console.log("Blast Off")
