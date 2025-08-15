@@ -72,4 +72,13 @@ while (i5 < string.length) {
 
 console.log("Question.8: ")
 // Odd numbers from 1 to 15
+let i6 = 1;
 
+while (i6<=15) {
+    if(i6 %2 !== 0){
+        console.log("Number is odd")
+    } else{
+        console.log("Number is Even")
+    }
+    i6++
+}
