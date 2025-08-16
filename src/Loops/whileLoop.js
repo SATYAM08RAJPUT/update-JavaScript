@@ -96,3 +96,5 @@ while (i7<=20) {
     }
     i7++   
 }
+
+console.log("Question.10: ")
