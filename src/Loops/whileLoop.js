@@ -98,3 +98,4 @@ while (i7<=20) {
 }
 
 console.log("Question.10: ")
+// Question.10: Reverse a number
