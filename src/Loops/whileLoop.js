@@ -84,3 +84,15 @@ while (i6<=15) {
 }
 
 console.log("Quetion.9: ")
+// Sum numbers from 1 to 15
+
+let i7 = 1;
+
+while (i7<=20) {
+    if(i7%2===0){
+        console.log(i7 + " Number is Even")
+    }else{
+        console.log(i7 + " Number is Odd")
+    }
+    i7++   
+}
