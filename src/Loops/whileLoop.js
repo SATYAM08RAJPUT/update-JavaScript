@@ -101,3 +101,4 @@ console.log("Question.10: ")
 // Question.10: Reverse a number
 
 let i8 = 123456;
+console.log(new Date())
