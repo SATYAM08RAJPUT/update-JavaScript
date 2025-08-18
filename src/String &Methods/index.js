@@ -47,3 +47,6 @@ console.log("last indexOf:", str6.lastIndexOf("z"))
 
 let str7 = "this is a test, test it out";
 console.log("last indexof:",str7.lastIndexOf("test"))
+
+let str8 = "Hello world, hello world!";
+console.log("last indexOf:", str8.lastIndexOf("hello"))
