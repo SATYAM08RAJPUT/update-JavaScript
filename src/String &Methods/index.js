@@ -59,3 +59,5 @@ console.log('Last Indexof:', str10.lastIndexOf("abc"))
 
 let str11 = "the quick brown fox jumps over the lazy dog";
 console.log('last Indexof', str11.lastIndexOf("the"))
+
+console.log('Done')
