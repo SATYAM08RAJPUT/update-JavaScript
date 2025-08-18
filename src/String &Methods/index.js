@@ -44,3 +44,6 @@ console.log("lastindex.of:",str5.lastIndexOf("apple"))
 
 let str6 = "learning JavaScript is fun";
 console.log("last indexOf:", str6.lastIndexOf("z"))
+
+let str7 = "this is a test, test it out";
+console.log("last indexof:",str7.lastIndexOf("test"))
