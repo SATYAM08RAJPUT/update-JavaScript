@@ -31,3 +31,16 @@ console.log('indexOf: ', str2.indexOf("t"))
 console.log("lastIndexOf() topic")
 // lastIndexOf(): 
 
+let str3 = "hello world, hello universe";
+console.log('Find Last indexOf:',str3.lastIndexOf("o"))
+
+let str4 = "the quick brown fox jumps over the lazy dog";
+console.log('lastIndexOf:',str4.lastIndexOf("a"))
+
+
+let str5 = "apple banana apple grape apple";
+console.log("lastindex.of:",str5.lastIndexOf("apple"))
+
+
+let str6 = "learning JavaScript is fun";
+console.log("last indexOf:", str6.lastIndexOf("z"))
