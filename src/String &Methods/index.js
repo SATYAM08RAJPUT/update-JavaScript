@@ -19,3 +19,11 @@ let message = "Hello, welcome to JavaScript world!";
 console.log("indexOf:",message.indexOf("w"))
 console.log("indexOf:",message.indexOf("c"))
 
+let str = "banana bread is better than banana cake";
+console.log("indexOf: ",str.indexOf("banana"))
+
+let str1 = "I love coding in JavaScript. JavaScript is powerful.";
+console.log("indexOf:", str1.indexOf("JavaScript"))
+
+let str2 = "this is just a test";
+console.log('indexOf: ', str2.indexOf("t"))
