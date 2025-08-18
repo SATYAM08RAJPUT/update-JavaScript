@@ -50,3 +50,6 @@ console.log("last indexof:",str7.lastIndexOf("test"))
 
 let str8 = "Hello world, hello world!";
 console.log("last indexOf:", str8.lastIndexOf("hello"))
+
+let str9 = "Javascript is awesome, and I love coding in Javascript!";
+console.log('last indexOf:', str9.lastIndexOf("Javascript",20))
