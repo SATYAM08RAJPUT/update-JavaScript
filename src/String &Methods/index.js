@@ -27,3 +27,7 @@ console.log("indexOf:", str1.indexOf("JavaScript"))
 
 let str2 = "this is just a test";
 console.log('indexOf: ', str2.indexOf("t"))
+
+console.log("lastIndexOf() topic")
+// lastIndexOf(): 
+
