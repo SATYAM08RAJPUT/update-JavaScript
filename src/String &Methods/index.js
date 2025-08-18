@@ -13,5 +13,9 @@ console.log("Now String Topic")
 // startsWith() → Checks if string starts with given value
 // endsWith() → Checks if string ends with given value
 
+// indexOf() →
+
 let message = "Hello, welcome to JavaScript world!";
-console.log(message.indexOf("w"))
+console.log("indexOf:",message.indexOf("w"))
+console.log("indexOf:",message.indexOf("c"))
+
