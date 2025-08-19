@@ -76,3 +76,6 @@ console.log("Serching", text3.search(/[0-9]/))
 
 let text4 = "Hello World!";
 console.log("Searching:", text4.search(/\s/))
+
+console.log('Done for Searching Method')
+
