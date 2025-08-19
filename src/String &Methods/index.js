@@ -79,3 +79,5 @@ console.log("Searching:", text4.search(/\s/))
 
 console.log('Done for Searching Method')
 
+console.log('includes() → Checks if string contains substring')
+// includes() → Checks if string contains substring
