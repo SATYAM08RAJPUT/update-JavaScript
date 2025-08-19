@@ -64,3 +64,6 @@ console.log('Done')
 
 // search() → Finds index using regex
 console.log("Searching of String")
+
+const text = "Please contact us at support@example.com for more details.";
+console.log("search:",text.search("us"))
