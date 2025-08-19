@@ -67,3 +67,6 @@ console.log("Searching of String")
 
 const text = "Please contact us at support@example.com for more details.";
 console.log("search:",text.search("us"))
+
+let text2 = "I love JavaScript!";
+console.log('Searching a String: ', text2.search("JavaScript"))
