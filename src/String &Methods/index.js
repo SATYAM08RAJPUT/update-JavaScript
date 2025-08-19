@@ -70,3 +70,6 @@ console.log("search:",text.search("us"))
 
 let text2 = "I love JavaScript!";
 console.log('Searching a String: ', text2.search("JavaScript"))
+
+let text3 = "My order id is 12345.";
+console.log("Serching", text3.search(/[0-9]/))
