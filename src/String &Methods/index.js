@@ -61,3 +61,6 @@ let str11 = "the quick brown fox jumps over the lazy dog";
 console.log('last Indexof', str11.lastIndexOf("the"))
 
 console.log('Done')
+
+// search() → Finds index using regex
+console.log("Searching of String")
