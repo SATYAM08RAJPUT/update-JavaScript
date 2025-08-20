@@ -115,3 +115,6 @@ console.log("startwith Position: ", str13.startsWith("awesome",14))
 let str14 = "JavaScript is awesome!";
 
 console.log("startwith():", str14.startsWith("java"))
+
+// endsWith() → Checks if string ends with given value
+console.log("endsWith() → Checks if string ends with given value")
