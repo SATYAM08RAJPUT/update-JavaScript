@@ -110,3 +110,4 @@ console.log("startwith(): ", str12.startsWith("world"))
 
 let str13 = "JavaScript is awesome!";
 console.log("startwith Position: ", str13.startsWith("is",11))
+console.log("startwith Position: ", str13.startsWith("awesome",14))
