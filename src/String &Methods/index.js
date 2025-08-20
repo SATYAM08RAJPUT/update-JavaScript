@@ -100,3 +100,7 @@ console.log("includes", email.includes("com"))
 console.log("Done Includes method");
 
 console.log("startsWith():")
+
+let str12 = "Hello, world!";
+console.log("startwith():", str12.startsWith("Hello"))
+console.log("startwith(): ", str12.startsWith("world"))
