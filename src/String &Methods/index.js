@@ -109,3 +109,4 @@ console.log("startwith():", str12.startsWith("Hello"))
 console.log("startwith(): ", str12.startsWith("world"))
 
 let str13 = "JavaScript is awesome!";
+console.log("startwith Position: ", str13.startsWith("is",11))
