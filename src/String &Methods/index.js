@@ -124,3 +124,7 @@ console.log("endwith():", str15.endsWith("awesome!"))
 console.log("endwith(): ", str15.endsWith("Java",4))
 
 console.log("Done for method")
+
+
+// Extracting
+console.log("Extracting")
