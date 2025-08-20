@@ -121,3 +121,4 @@ console.log("endsWith() → Checks if string ends with given value")
 
 let str15 = "JavaScript is awesome!";
 console.log("endwith():", str15.endsWith("awesome!"))
+console.log("endwith(): ", str15.endsWith("Java",4))
