@@ -101,6 +101,11 @@ console.log("Done Includes method");
 
 console.log("startsWith():")
 
+
+// Example 2: With a Position Argument
+
 let str12 = "Hello, world!";
 console.log("startwith():", str12.startsWith("Hello"))
 console.log("startwith(): ", str12.startsWith("world"))
+
+let str13 = "JavaScript is awesome!";
