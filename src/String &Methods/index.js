@@ -153,3 +153,6 @@ console.log("substring:",str19.substring(5,7))
 
 let str20 = "Programming";
 console.log('substring:', str20.substring(4,7))
+
+let str21 = "123456789";
+console.log("substring:-", str21.substring(5) )
