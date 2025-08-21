@@ -146,4 +146,5 @@ console.log("Negative Slice: ", str18.slice(-7,-5))
 
 
 // substring(start, end): Similar to slice but no negative index
+console.log(" substring(start, end)")
 let str19 = ""
