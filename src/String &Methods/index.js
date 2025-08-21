@@ -143,3 +143,7 @@ console.log("negative Slice:", str17.slice(-3,-1))
 
 let str18 = "Automation";
 console.log("Negative Slice: ", str18.slice(-7,-5))
+
+
+// substring(start, end): Similar to slice but no negative index
+let str19 = ""
