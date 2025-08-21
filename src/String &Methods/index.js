@@ -150,3 +150,6 @@ console.log(" substring(start, end)")
 
 let str19 = "Hello, World!";
 console.log("substring:",str19.substring(5,7))
+
+let str20 = "Programming";
+console.log('substring:', str20.substring(4,7))
