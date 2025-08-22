@@ -208,3 +208,6 @@ console.log("Practice Questions for toLowerCase() in JavaScrip")
 
 let str27 = "HELLO WORLD";
 console.log("tolowercase: ", str27.toLowerCase())
+
+let str28 = "JaVaScRiPt Is FuN";
+console.log("toLowercase():-", str28.toLowerCase())
