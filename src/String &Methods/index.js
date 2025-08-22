@@ -217,3 +217,5 @@ console.log('tolowercase(): ', str29.toLowerCase())
 
 let str30 = ["Ali", "SARA", "john", "MEENA"];
 const lowerfruits = str30.map((fruit) => console.log(fruit.toLowerCase()))
+
+console.log("Done for tolowercase() method")
