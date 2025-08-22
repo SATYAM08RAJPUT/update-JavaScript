@@ -205,3 +205,6 @@ console.log("touppercase()")
 
 
 console.log("Practice Questions for toLowerCase() in JavaScrip")
+
+let str27 = "HELLO WORLD";
+console.log("tolowercase: ", str27.toLowerCase())
