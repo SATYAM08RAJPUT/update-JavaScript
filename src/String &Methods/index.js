@@ -214,3 +214,6 @@ console.log("toLowercase():-", str28.toLowerCase())
 
 let str29 = "User@Example.COM";
 console.log('tolowercase(): ', str29.toLowerCase())
+
+let str30 = ["Ali", "SARA", "john", "MEENA"];
+const lowerfruits = str30.map((fruit) => console.log(fruit.toLowerCase()))
