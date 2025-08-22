@@ -211,3 +211,6 @@ console.log("tolowercase: ", str27.toLowerCase())
 
 let str28 = "JaVaScRiPt Is FuN";
 console.log("toLowercase():-", str28.toLowerCase())
+
+let str29 = "User@Example.COM";
+console.log('tolowercase(): ', str29.toLowerCase())
