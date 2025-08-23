@@ -258,3 +258,5 @@ console.log('replace(): ', str38.replace("cat",1))
 
 let str39 = "Hello hello Hello";
 console.log('replace():', str39.replace('Hello', "Hi"))
+
+console.log("Done method of replace():")
