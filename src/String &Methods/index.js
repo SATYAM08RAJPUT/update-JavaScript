@@ -245,3 +245,6 @@ console.log("trimEnd(): ", str35.trimEnd())
 
 let str36 = "     GPT is smart!";
 console.log('trimStart:-', str36.trimStart())
+
+// replace() → Replaces first occurrence
+console.log('replace(): ')
