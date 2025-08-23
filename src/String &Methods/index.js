@@ -251,3 +251,7 @@ console.log('replace(): ')
 
 let str37 = "apple apple apple";
 console.log("replace(): ", str37.replace("apple",1))
+
+
+let str38 = "The cat chased the cat around the house."
+console.log('replace(): ', str38.replace("cat",1))
