@@ -248,3 +248,6 @@ console.log('trimStart:-', str36.trimStart())
 
 // replace() → Replaces first occurrence
 console.log('replace(): ')
+
+let str37 = "apple apple apple";
+console.log("replace(): ", str37.replace("apple",1))
