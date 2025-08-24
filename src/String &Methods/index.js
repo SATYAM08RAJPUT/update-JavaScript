@@ -260,3 +260,5 @@ let str39 = "Hello hello Hello";
 console.log('replace():', str39.replace('Hello', "Hi"))
 
 console.log("Done method of replace():")
+
+console.log("24-08-2025")
