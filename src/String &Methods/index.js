@@ -273,3 +273,6 @@ console.log("replace(): ", str40.replaceAll("love","loved"))
 
 let str41 = "My phone number is 123-456-7890.";
 console.log("replace(): ", str41.replaceAll("phone","Contact"))
+
+let str42 = "Hello world, how are you?";
+console.log('replace():', str42.replaceAll("Hello","hi"))
