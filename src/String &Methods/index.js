@@ -266,3 +266,6 @@ console.log("24-08-2025")
 // replaceAll() → Replaces all occurrences
 
 console.log("replaceAll() → Replaces all occurrences")
+
+let str40 = "I love programming. Programming is fun!";
+console.log("replace(): ", str40.replaceAll("love","loved"))
