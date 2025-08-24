@@ -276,3 +276,5 @@ console.log("replace(): ", str41.replaceAll("phone","Contact"))
 
 let str42 = "Hello world, how are you?";
 console.log('replace():', str42.replaceAll("Hello","hi"))
+
+console.log("Done for replace():")
