@@ -262,3 +262,7 @@ console.log('replace():', str39.replace('Hello', "Hi"))
 console.log("Done method of replace():")
 
 console.log("24-08-2025")
+
+// replaceAll() → Replaces all occurrences
+
+console.log("replaceAll() → Replaces all occurrences")
