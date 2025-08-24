@@ -269,3 +269,7 @@ console.log("replaceAll() → Replaces all occurrences")
 
 let str40 = "I love programming. Programming is fun!";
 console.log("replace(): ", str40.replaceAll("love","loved"))
+
+
+let str41 = "My phone number is 123-456-7890.";
+console.log("replace(): ", str41.replaceAll("phone","Contact"))
