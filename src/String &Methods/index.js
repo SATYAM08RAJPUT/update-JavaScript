@@ -286,3 +286,5 @@ function repeatString(str,n){
 }
 let result = repeatString("Hwllo "+ " ",5)
 console.log(result)
+let result2 = repeatString("Satyam ",2)
+console.log(result2)
