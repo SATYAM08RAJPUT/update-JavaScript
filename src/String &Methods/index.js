@@ -290,3 +290,5 @@ let result2 = repeatString("Satyam ",2)
 console.log(result2)
 let result3 = repeatString("Rajput ","2")
 console.log(result3)
+
+console.log('Done for Method of Replace()')
