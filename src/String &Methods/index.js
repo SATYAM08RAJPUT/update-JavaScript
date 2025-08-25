@@ -280,3 +280,9 @@ console.log('replace():', str42.replaceAll("Hello","hi"))
 console.log("Done for replace():")
 
 // repeat(n) → Repeats string n times
+
+function repeatString(str,n){
+    return str.repeat(n)
+}
+let result = repeatString("Hwllo "+ " ",5)
+console.log(result)
