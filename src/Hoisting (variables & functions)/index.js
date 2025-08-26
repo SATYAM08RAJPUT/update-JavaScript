@@ -9,3 +9,11 @@ var a= 10;
 
 // console.log("Hoisting: ",b)
 // let b = 20;
+
+
+// Practice 3: Function Hoisting
+
+sayHello()
+function sayHello(){
+    console.log("Hello")
+}
