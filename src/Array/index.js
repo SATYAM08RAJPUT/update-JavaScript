@@ -14,3 +14,6 @@ console.log(array1)
 let array2 = [12,13,14,15]
 console.log("Pop Array: ", array2.pop())
 console.log(array2)
+
+// 3. shift(): Removes the first element from an array and returns that element.
+
