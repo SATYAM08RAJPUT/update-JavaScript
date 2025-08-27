@@ -8,3 +8,9 @@ console.log('Welcome to Array')
 let array1 = [10,20,30]
 console.log("Push a Array: ",array1.push(40))
 console.log(array1)
+
+// 2. pop() : Removes the last element from an array and returns that element
+
+let array2 = [12,13,14,15]
+console.log("Pop Array: ", array2.pop())
+console.log(array2)
