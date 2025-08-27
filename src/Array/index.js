@@ -23,3 +23,6 @@ console.log("shift() method: ",array3)
 
 // 4. unshift(): Adds one or more elements to the beginning of an array and returns the new length of the array.
 
+let array4 = [21,22,23,24,25]
+console.log(array4.unshift(20))
+console.log(array4)
