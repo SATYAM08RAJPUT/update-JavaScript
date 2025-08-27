@@ -5,4 +5,6 @@ console.log('Welcome to Array')
 
 
 // 1. push() : Adds one or more elements to the end of an array and returns the new length of the array.
-
+let array1 = [10,20,30]
+console.log("Push a Array: ",array1.push(40))
+console.log(array1)
