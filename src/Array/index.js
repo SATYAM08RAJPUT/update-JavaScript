@@ -17,3 +17,6 @@ console.log(array2)
 
 // 3. shift(): Removes the first element from an array and returns that element.
 
+let array3 = [16,17,18,19,20]
+console.log(array3.shift())
+console.log(array3)
