@@ -19,4 +19,4 @@ console.log(array2)
 
 let array3 = [16,17,18,19,20]
 console.log(array3.shift())
-console.log(array3)
+console.log("shift() method: ",array3)
