@@ -20,3 +20,6 @@ console.log(array2)
 let array3 = [16,17,18,19,20]
 console.log(array3.shift())
 console.log("shift() method: ",array3)
+
+// 4. unshift(): Adds one or more elements to the beginning of an array and returns the new length of the array.
+
