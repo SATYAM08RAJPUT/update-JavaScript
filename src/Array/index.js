@@ -31,3 +31,6 @@ console.log("unshift method: ",array4)
 
 let arr5 = [1, 2, 3, 4, 5];
 console.log('slice: ', arr5.slice(1))
+
+let arr6 = [10,20,30,40,50]
+console.log("slice:", arr6.slice(2,100,200))
