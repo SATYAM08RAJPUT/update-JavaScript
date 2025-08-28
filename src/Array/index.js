@@ -30,3 +30,4 @@ console.log("unshift method: ",array4)
 // 5. splice():  Adds/removes elements from any position in the array.
 
 let arr5 = [1, 2, 3, 4, 5];
+console.log('slice: ', arr5.slice(1))
