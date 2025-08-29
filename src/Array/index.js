@@ -39,3 +39,5 @@ console.log("slice:", arr6.slice(4))
 // It modifies the original array in place and returns an array of the removed elements (if any).
 
 let fruits = ['apple', 'banana', 'cherry', 'date'];
+let removed= fruits.splice(1,3)
+console.log('removed items:', removed)
