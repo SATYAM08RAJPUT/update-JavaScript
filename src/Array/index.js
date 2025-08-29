@@ -41,3 +41,4 @@ console.log("slice:", arr6.slice(4))
 let fruits = ['apple', 'banana', 'cherry', 'date'];
 let removed= fruits.splice(1,3)
 console.log('removed items:', removed)
+console.log("fruits", fruits)
