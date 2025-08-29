@@ -34,3 +34,6 @@ console.log('slice: ', arr5.slice(1))
 
 let arr6 = [10,20,30,40,50]
 console.log("slice:", arr6.slice(4))
+
+// 6. The splice(): method in JavaScript is used to add, remove, or replace elements in an array. 
+// It modifies the original array in place and returns an array of the removed elements (if any).
