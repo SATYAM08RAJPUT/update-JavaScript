@@ -80,4 +80,5 @@ let arr12 = [122,200,300,122]
 console.log("findIndex():", arr12.findIndex((n) => n%5 ==0))
 
 
-// Iteration
+// Iteration method
+
