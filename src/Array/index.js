@@ -76,4 +76,7 @@ console.log('Find Method: ', arr11.find((n) => n> 0))
 
 // findIndex() method
 
-let arr12 = [100,200,300]
+let arr12 = [122,200,300,122]
+console.log("findIndex():", arr12.findIndex((n) => n%5 ==0))
+
+
