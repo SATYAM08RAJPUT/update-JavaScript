@@ -73,3 +73,7 @@ console.log("find: ", arr10.find((n) => n> 50))
 
 let arr11  = [20,30,40,0,50]
 console.log('Find Method: ', arr11.find((n) => n> 0))
+
+// findIndex() method
+
+let arr12 = [100,200,300]
