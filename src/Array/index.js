@@ -82,3 +82,5 @@ console.log("findIndex():", arr12.findIndex((n) => n%5 ==0))
 
 // Iteration method
 
+let arr13 = [1,2,3,4,5,6]
+arr13.forEach((n) => console.log("1-6 Number",n))
