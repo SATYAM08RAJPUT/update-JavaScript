@@ -91,3 +91,17 @@ arr13.forEach((n) => console.log("1-6 Number",n))
 arr13.map((n) => console.log("By map: ",n))
 
 // Difference between a map & ForEach
+
+let arr14 = [1,2,3,4,5]
+
+arr14.forEach((n) => {
+    console.log(n*2)
+})
+console.log(arr14)
+
+let arr15 = [3,4,5,6,7]
+let arr16 = arr15.map((n) => {
+   return n*3
+})
+console.log(arr16)
+console.log(arr15)
