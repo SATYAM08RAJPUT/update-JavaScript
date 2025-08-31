@@ -89,3 +89,5 @@ arr13.forEach((n) => console.log("1-6 Number",n))
 //  map() method\
 
 arr13.map((n) => console.log("By map: ",n))
+
+// Difference between a map & ForEach
