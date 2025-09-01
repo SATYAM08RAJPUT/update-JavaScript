@@ -70,3 +70,6 @@ console.log('includes: ', arr9.includes(40))
 
 let arr10 = [12,23,45,56]
 console.log("find: ", arr10.find((n) => n> 50))
+
+let arr11  = [20,30,40,0,50]
+console.log('Find Method: ', arr11.find((n) => n> 0))
