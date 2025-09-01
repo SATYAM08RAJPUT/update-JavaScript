@@ -58,3 +58,6 @@ let arr7 = [12,23,34,56,20,20,10]
 console.log("lastIndexof: ", arr7.lastIndexOf(20))
 
 // includes()
+
+let arr8 = [1,2,3,4,5,6,7,8]
+console.log("Arr8: ",arr8.includes(6))
