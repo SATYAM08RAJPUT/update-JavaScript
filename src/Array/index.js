@@ -42,3 +42,7 @@ let fruits = ['apple', 'banana', 'cherry', 'date'];
 let removed= fruits.splice(1,3)
 console.log('removed items:', removed)
 console.log("fruits", fruits)
+
+
+// Searching / Finding
+console.log('Searching / Finding')
