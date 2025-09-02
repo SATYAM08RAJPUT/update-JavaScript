@@ -50,4 +50,4 @@ console.log('Searching / Finding')
 // indexOf topic
 
 let nums = [5, 10, 15, 20, 25];
-console.log("")
+console.log("indexOf: ", nums.indexOf(20))
