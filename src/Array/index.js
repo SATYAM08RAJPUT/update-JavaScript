@@ -46,3 +46,8 @@ console.log("fruits", fruits)
 
 // Searching / Finding
 console.log('Searching / Finding')
+
+// indexOf topic
+
+let nums = [5, 10, 15, 20, 25];
+console.log("")
