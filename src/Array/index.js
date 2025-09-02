@@ -55,3 +55,4 @@ console.log("indexOf: ", nums.indexOf(20))
 // lastIndexOf() topic
 
 let arr7 = [12,23,34,56,20,20,10]
+console.log("lastIndexof: ", arr7.lastIndexOf(20))
