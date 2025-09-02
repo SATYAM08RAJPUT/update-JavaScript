@@ -51,3 +51,7 @@ console.log('Searching / Finding')
 
 let nums = [5, 10, 15, 20, 25];
 console.log("indexOf: ", nums.indexOf(20))
+
+// lastIndexOf() topic
+
+let arr7 = [12,23,34,56,20,20,10]
