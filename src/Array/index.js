@@ -111,3 +111,9 @@ console.log(arr15)
 let arr17 = [12,23,4,5,6,78,90]
 let arr17result = arr17.filter((n) =>(n>50))
 console.log('filterValue: ', arr17result)
+
+let arr18 = [12,3,4,6,78,90,97,100]
+console.log(arr18.length)
+// let arr18length = arr18.filter((n) => n.toString().length >6)
+let arr18length = arr18.filter((n) => n.toString().length > 6);
+console.log(arr18length)
