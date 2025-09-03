@@ -125,4 +125,7 @@ console.log(arr18length)
 
 let arr19 = [10,20,30,40,50]
 let total = arr19.reduce((sum, num) => sum+ num,0)
-console.log(total)
+console.log("Reduce method: ",total); 
+
+
+
