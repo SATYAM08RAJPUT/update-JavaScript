@@ -108,3 +108,6 @@ console.log(arr15)
 
 
 // filter() method: 
+let arr17 = [12,23,4,5,6,78,90]
+let arr17result = arr17.filter((n) =>(n>50))
+console.log('filterValue: ', arr17result)
