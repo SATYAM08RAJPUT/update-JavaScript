@@ -122,3 +122,7 @@ console.log(arr18length)
 // Done filter Method
 
 // reduce() method: 
+
+let arr19 = [10,20,30,40,50]
+let total = arr19.reduce((sum, num) => sum+ num,0)
+console.log(total)
