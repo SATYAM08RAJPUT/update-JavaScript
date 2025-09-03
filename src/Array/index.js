@@ -117,3 +117,6 @@ console.log(arr18.length)
 // let arr18length = arr18.filter((n) => n.toString().length >6)
 let arr18length = arr18.filter((n) => n.toString().length > 6);
 console.log(arr18length)
+
+
+// Done filter Method
