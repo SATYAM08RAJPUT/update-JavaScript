@@ -128,4 +128,6 @@ let total = arr19.reduce((sum, num) => sum+ num,0)
 console.log("Reduce method: ",total); 
 
 
+console.log("03-09-2025")
+
 
