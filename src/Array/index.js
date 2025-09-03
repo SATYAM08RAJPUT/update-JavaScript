@@ -120,3 +120,5 @@ console.log(arr18length)
 
 
 // Done filter Method
+
+// reduce() method: 
