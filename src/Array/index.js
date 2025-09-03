@@ -105,3 +105,6 @@ let arr16 = arr15.map((n) => {
 })
 console.log(arr16)
 console.log(arr15)
+
+
+// filter() method: 
