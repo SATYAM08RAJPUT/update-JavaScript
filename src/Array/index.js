@@ -137,5 +137,5 @@ console.log("Joining / Converting")
 let chars = ["J", "S", "A", "R", "R"];
 console.log("Join Method: ", chars.join(""))
 let charsSecond = ["s", "a","t","y","a","m"]
-
+console.log('Second Method: ', charsSecond.join(""))
 
