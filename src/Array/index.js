@@ -142,3 +142,5 @@ console.log('Second Method: ', charsSecond.join(""))
 let charsThird = [1,2,3,4,5]
 console.log(charsThird.toString())
 
+// Flat & FlatMap method
+console.log("Flat & FlatMap")
