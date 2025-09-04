@@ -134,4 +134,8 @@ console.log(" 03-09-2025 ")
 // Joining / Converting methods
 console.log("Joining / Converting")
 
+let chars = ["J", "S", "A", "R", "R"];
+console.log("Join Method: ", chars.join(""))
+let charsSecond = ["s", "a","t","y","a","m"]
+
 
