@@ -147,3 +147,5 @@ console.log("Flat & FlatMap")
 
 let arr20 = [1,2,3,[2,3,4,5,[90,45,23,56,[34,23,56]]]]
 console.log(arr20.flat(3))
+
+console.log('Done Array Methods')
