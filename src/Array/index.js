@@ -120,14 +120,18 @@ console.log(arr18length)
 
 
 // Done filter Method
+console.log('Done for Filter method')
 
 // reduce() method: 
-
+console.log("Reduce method: ")
 let arr19 = [10,20,30,40,50]
 let total = arr19.reduce((sum, num) => sum+ num,0)
 console.log("Reduce method: ",total); 
 
 
 console.log(" 03-09-2025 ")
+
+// Joining / Converting methods
+console.log("Joining / Converting")
 
 
