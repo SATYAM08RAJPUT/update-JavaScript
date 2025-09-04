@@ -139,3 +139,6 @@ console.log("Join Method: ", chars.join(""))
 let charsSecond = ["s", "a","t","y","a","m"]
 console.log('Second Method: ', charsSecond.join(""))
 
+let charsThird = [1,2,3,4,5]
+console.log(charsThird.toString())
+
