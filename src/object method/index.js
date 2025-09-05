@@ -72,3 +72,4 @@ const person3 = {
     }
 }
 console.log(person3)
+console.log(person3.marks.science)
