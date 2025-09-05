@@ -71,5 +71,5 @@ const person3 = {
         science:"25"
     }
 }
-console.log(person3)
-console.log(person3.marks.science)
+console.log("Access Object: ",person3)
+console.log("Science marks: ",person3.marks.science)
