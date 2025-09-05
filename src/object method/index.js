@@ -59,3 +59,6 @@ const person2 = {
 person2.sayhi()
 person2.sayHi()
 person2.sayhello()
+
+
+// 5. Nested Objects
