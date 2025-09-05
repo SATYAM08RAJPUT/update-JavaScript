@@ -62,3 +62,13 @@ person2.sayhello()
 
 
 // 5. Nested Objects
+
+const person3 = {
+    name: "satyam",
+    age:"27",
+    marks:{
+        mark:"90",
+        science:"25"
+    }
+}
+console.log(person3)
