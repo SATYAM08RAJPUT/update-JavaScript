@@ -41,3 +41,11 @@ person1.greet()
 person1.greet1()
 
 // 4. Short-hand Method Syntax (ES6)
+
+const person2 = {
+    name:"Rajput",
+    sayhi(){
+        console.log(`Hi, I'm ${this.name}`)
+    }
+}
+person2.sayhi()
