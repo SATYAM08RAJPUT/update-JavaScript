@@ -39,3 +39,5 @@ const person1 = {
 }
 person1.greet()
 person1.greet1()
+
+// 4. Short-hand Method Syntax (ES6)
