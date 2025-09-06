@@ -44,8 +44,13 @@ person1.greet1()
 
 const person2 = {
     name:"Rajput",
+    age:"26",
     sayhi(){
         console.log(`Hi, I'm ${this.name}`)
+    },
+    sayHi(){
+        console.log(`Hello my age is ${this.age}`)
     }
 }
 person2.sayhi()
+person2.sayHi()
