@@ -28,8 +28,14 @@ console.log(person)
 
 const person1 = {
     name:"satyam",
+    age:"25",
     greet: function(){
         console.log("Hello " + this.name)
+    },
+    greet1: function(){
+        console.log("Age: ",this.age)
     }
+
 }
 person1.greet()
+person1.greet1()
