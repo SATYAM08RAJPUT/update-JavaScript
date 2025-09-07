@@ -25,3 +25,11 @@ person.age = 26
 console.log(person)
 
 // 3. Methods in Objects: A method is just a function inside an object.
+
+const person1 = {
+    name:"satyam",
+    greet: function(){
+        console.log("Hello " + this.name)
+    }
+}
+person1.greet()
