@@ -20,4 +20,5 @@ const person = {
     name:"satyam",
     age:"25"
 }
+person.address = "Pundri Kalan"
 console.log(person)
