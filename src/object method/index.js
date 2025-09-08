@@ -11,5 +11,7 @@ const car = {
 }
 console.log(car)
 console.log("Speed: ",car.speed)
+console.log("color:",car['brand'])
+
 
 // Adding & Modifying Properties
