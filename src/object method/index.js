@@ -11,3 +11,5 @@ const car = {
 }
 console.log(car)
 console.log("Speed: ",car.speed)
+
+// Adding & Modifying Properties
