@@ -15,3 +15,9 @@ console.log("color:",car['brand'])
 
 
 // Adding & Modifying Properties
+
+const person = {
+    name:"satyam",
+    age:"25"
+}
+console.log(person)
