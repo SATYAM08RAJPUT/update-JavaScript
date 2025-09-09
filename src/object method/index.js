@@ -10,3 +10,4 @@ const car = {
     speed: 200
 }
 console.log(car)
+console.log("Speed: ",car.speed)
