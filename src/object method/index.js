@@ -81,3 +81,4 @@ const person4 = { brand: "BMW", model: "X5", year: 2022 }
 console.log(person4)
 console.log(Object.keys(person4))
 console.log(Object.values(person4))
+console.log(Object.entries(person4))
