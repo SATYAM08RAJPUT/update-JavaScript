@@ -77,6 +77,7 @@ console.log("mark: ", person3.marks.mark)
 
 // 6. Object Methods (Built-in): JavaScript gives us built-in methods to work with objects:
 console.log('Object method')
+
 const person4 = { brand: "BMW", model: "X5", year: 2022 }
 console.log(person4)
 console.log(Object.keys(person4))
