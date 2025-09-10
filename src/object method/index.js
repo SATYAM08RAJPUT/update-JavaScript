@@ -82,3 +82,6 @@ console.log(person4)
 console.log(Object.keys(person4))
 console.log(Object.values(person4))
 console.log(Object.entries(person4))
+
+
+// 7. Copying Objects
