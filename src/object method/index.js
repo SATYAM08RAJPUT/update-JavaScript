@@ -80,3 +80,4 @@ console.log("mark: ", person3.marks.mark)
 const person4 = { brand: "BMW", model: "X5", year: 2022 }
 console.log(person4)
 console.log(Object.keys(person4))
+console.log(Object.values(person4))
