@@ -85,6 +85,8 @@ console.log(Object.entries(person4))
 
 
 // 7. Copying Objects
-
+console.log("Copy Object")
 const person5 = {a:1,b:2}
 console.log(person5)
+const person6 ={...person5}
+console.log(person6)
