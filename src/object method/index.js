@@ -75,4 +75,4 @@ console.log("Access Object: ",person3)
 console.log("Science marks: ",person3.marks.science)
 console.log("mark: ", person3.marks.mark)
 
-// 6. Object Methods (Built-in)
+// 6. Object Methods (Built-in): JavaScript gives us built-in methods to work with objects:
