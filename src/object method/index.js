@@ -138,3 +138,4 @@ console.log(person11)
 
 const person12 = {name:"Satyam", age:"2"}
 console.log(person12)
+console.log(new Date())
