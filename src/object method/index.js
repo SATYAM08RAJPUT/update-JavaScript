@@ -133,3 +133,5 @@ console.log(Object.getOwnPropertyNames(person10))
 
 const person11 = {name:"Rahul",age:"23"}
 console.log(person11)
+
+// 10. Object.is() → Compare values strictly (better than === in some cases)
