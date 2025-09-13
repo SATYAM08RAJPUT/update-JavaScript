@@ -130,3 +130,6 @@ console.log(Object.hasOwn(person9,"city"))
 
 const person10 = {x:1,y:2}
 console.log(Object.getOwnPropertyNames(person10))
+
+const person11 = {name:"Rahul",age:"23"}
+console.log(person11)
