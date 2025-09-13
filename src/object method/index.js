@@ -124,3 +124,6 @@ const person9 = { name: "Aman", age: 22 };
 
 console.log(Object.hasOwn(person9,"name"))
 console.log(Object.hasOwn(person9,"city"))
+
+
+// 6. Object.getOwnPropertyNames() → Get all property names
