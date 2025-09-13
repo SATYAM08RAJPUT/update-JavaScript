@@ -129,3 +129,4 @@ console.log(Object.hasOwn(person9,"city"))
 // 6. Object.getOwnPropertyNames() → Get all property names
 
 const person10 = {x:1,y:2}
+console.log(Object.getOwnPropertyNames(person10))
