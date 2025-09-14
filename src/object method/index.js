@@ -105,3 +105,6 @@ const person8  = { brand: "BMW", year: 2022 };
 console.log(Object.seal(person8))
 person8.year  = 2025
 console.log(person8)
+
+// 4. Object.create() → Create object with prototype
+
