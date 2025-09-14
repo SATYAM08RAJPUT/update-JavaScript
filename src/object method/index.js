@@ -116,3 +116,7 @@ const animal = {
 
 const dog = Object.create(animal)
 dog.sound()
+
+
+// 🔹 5. Object.hasOwn() (ES2022) → Check if property exists (own property only)
+
