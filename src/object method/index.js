@@ -108,3 +108,11 @@ console.log(person8)
 
 // 4. Object.create() → Create object with prototype
 
+const animal = {
+    sound(){
+        console.log("Some sound")
+    }
+}
+
+const dog = Object.create(animal)
+dog.sound()
