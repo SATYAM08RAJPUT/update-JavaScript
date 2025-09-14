@@ -120,3 +120,7 @@ dog.sound()
 
 // 🔹 5. Object.hasOwn() (ES2022) → Check if property exists (own property only)
 
+const person9 = { name: "Aman", age: 22 };
+
+console.log(Object.hasOwn(person9,"name"))
+console.log(Object.hasOwn(person9,"city"))
