@@ -94,3 +94,8 @@ const person6 ={...person5}
 console.log("Copy Object: ",person6)
 
 // 8. Object.freeze() → Prevent changes
+
+const person7 = { name: "Raj", age: 25 };
+
+console.log(Object.freeze(person7))
+// person7.age = 27;
