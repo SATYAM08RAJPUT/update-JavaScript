@@ -101,3 +101,7 @@ console.log(Object.freeze(person7))
 // person7.age = 27;
 
 // 3. Object.seal() 
+const person8  = { brand: "BMW", year: 2022 };
+console.log(Object.seal(person8))
+person8.year  = 2025
+console.log(person8)
