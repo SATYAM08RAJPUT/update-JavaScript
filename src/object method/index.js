@@ -99,3 +99,5 @@ const person7 = { name: "Raj", age: 25 };
 
 console.log(Object.freeze(person7))
 // person7.age = 27;
+
+// 3. Object.seal() 
