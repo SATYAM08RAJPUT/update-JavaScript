@@ -19,3 +19,5 @@ const person = {
     }
 }
 person.greet()
+
+// 3. Inside a Function (non-strict mode): In a regular function, this defaults to the global object (window in browsers).
