@@ -31,10 +31,10 @@ show()
 // 4. Arrow Functions: Arrow functions do not have their own this.
 // They inherit this from the surrounding scope (lexical scoping).
 
-// const person1 = {
-//     lname: "Rajput",
-//     greet1: () => {
-//         console.log(person1.lname);
-//     }
-// };
-// person1.greet1()
+const person1 = {
+    lname: "Rajput",
+    greet1: () => {
+        console.log(person1.lname);
+    }
+};
+person1.greet1()
