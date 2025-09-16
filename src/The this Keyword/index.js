@@ -27,3 +27,6 @@ function show(){
 
 }
 show()
+
+// 4. Arrow Functions: Arrow functions do not have their own this.
+// They inherit this from the surrounding scope (lexical scoping).
