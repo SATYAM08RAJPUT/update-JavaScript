@@ -9,4 +9,13 @@ console.log("this keyword")
 console.log(this)
 
 
-// 2. Inside an Object Method: If this is used inside an object method, it refers to the object that owns the method.
+// 2. Inside an Object Method: If this is used inside an object method,
+//  it refers to the object that owns the method.
+
+const person = {
+    name:"Satyam",
+    greet(){
+        console.log('Hello ' + this.name)
+    }
+}
+person.greet()
