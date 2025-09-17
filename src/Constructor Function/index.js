@@ -18,3 +18,5 @@ function Person(name,age){
 }
 const const1 = new Person('satyam', "25")
 const1.greet()
+const const2 = new Person('Himanshu',34)
+const2.greet()
