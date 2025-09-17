@@ -1,3 +1,9 @@
 console.log("Welcome to constructor function")
 // A constructor function in JavaScript is a special type of function used to create and initialize objects.
 // It works like a blueprint for making multiple objects with similar properties and methods.
+
+// Rules of Constructor Functions
+// Name starts with a Capital letter (by convention).
+// Example: Person, Car, User.
+// You call it with the new keyword to create an object.
+// Inside it, this refers to the new object being created.
