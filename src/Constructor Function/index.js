@@ -7,3 +7,14 @@ console.log("Welcome to constructor function")
 // Example: Person, Car, User.
 // You call it with the new keyword to create an object.
 // Inside it, this refers to the new object being created.
+
+function Person(name,age){
+    this.name= name;
+    this.age = age;
+    this.greet = function(){
+        console.log(this.name)
+        console.log(this.age)
+    }
+}
+const const1 = new Person('satyam', "25")
+const1.greet()
