@@ -4,3 +4,15 @@ console.log('Closure')
 
 
 // 🔹 Basic Example
+
+function outerfunction(){
+    let outerVariable = "I am from outer Scopr"
+
+    function innerfunction(){
+        console.log(outerVariable) 
+    }
+    return innerfunction
+}
+
+const closureExample = outerfunction()
+closureExample()
