@@ -54,8 +54,8 @@ function secondfunction(data){
 fetchData(secondfunction)
 
 function onefun(callback){
-    console.log('First one')
     callback()
+    console.log('First one')
 }
 
 function secfun(){
