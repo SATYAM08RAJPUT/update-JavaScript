@@ -49,6 +49,6 @@ function fetchData(callback){
 }
 
 function secondfunction(data){
-    console.log("name: " + data.name)
+    console.log("name: " + data.name + "age: ",data.age)
 }
 fetchData(secondfunction)
