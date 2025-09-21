@@ -42,3 +42,13 @@ console.log('end')
 // Very useful in asynchronous tasks (e.g., fetching data, timers, events).
 
 // More examles for callback function
+
+function fetchData(callback){
+    const data = {name:"John",age:34}
+    callback(data)
+}
+
+function secondfunction(data){
+    console.log("name: " + data.name)
+}
+fetchData(secondfunction)
