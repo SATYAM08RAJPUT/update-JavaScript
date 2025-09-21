@@ -52,3 +52,14 @@ function secondfunction(data){
     console.log("name: " + data.name + "age: ",data.age)
 }
 fetchData(secondfunction)
+
+function onefun(callback){
+    console.log('First one')
+    callback()
+}
+
+function secfun(){
+    console.log('I am second')
+}
+
+onefun(secfun)
