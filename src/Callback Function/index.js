@@ -36,3 +36,7 @@ setTimeout(function() {
     console.log("this is run after 2 sec")
 },3000)
 console.log('end')
+
+// Why Use Callbacks?
+// To make sure a function runs after another finishes.
+// Very useful in asynchronous tasks (e.g., fetching data, timers, events).
