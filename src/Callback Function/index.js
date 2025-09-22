@@ -28,3 +28,5 @@ function process(num,callback){
 process(5, function(result) {
     console.log("Square is: ", result*result)
 });
+
+// 🔹 Example 3: Callbacks in Asynchronous Code (setTimeout)
