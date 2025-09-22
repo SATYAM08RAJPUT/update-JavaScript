@@ -30,3 +30,9 @@ process(5, function(result) {
 });
 
 // 🔹 Example 3: Callbacks in Asynchronous Code (setTimeout)
+
+console.log('start')
+setTimeout(function() {
+    console.log("this is run after 2 sec")
+},2000)
+console.log('end')
