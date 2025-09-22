@@ -19,3 +19,12 @@ function saybye(){
 greet("satyam", saybye)
 
 // 🔹 Example 2: Callback with Anonymous Function
+
+function process(num,callback){
+    console.log("Processing num: ", num)
+    callback(num)
+}
+
+process(5, function(result) {
+    console.log("Square is: ", result*result)
+});
