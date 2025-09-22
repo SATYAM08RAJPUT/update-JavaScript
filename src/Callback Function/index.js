@@ -34,5 +34,5 @@ process(5, function(result) {
 console.log('start')
 setTimeout(function() {
     console.log("this is run after 2 sec")
-},2000)
+},3000)
 console.log('end')
