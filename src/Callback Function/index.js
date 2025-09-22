@@ -17,3 +17,5 @@ function saybye(){
 }
 
 greet("satyam", saybye)
+
+// 🔹 Example 2: Callback with Anonymous Function
