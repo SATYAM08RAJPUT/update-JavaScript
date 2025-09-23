@@ -6,3 +6,14 @@ console.log("Topic of callback function")
 // “You give a function to another function, and that function will call it later.”
 
 // Example 1: Basic Callback
+
+function greet(name,callback){
+    console.log("Hello "+ name);
+    callback()
+}
+
+function saybye(){
+    console.log("Goodbye !!")
+}
+
+greet("satyam", saybye)
