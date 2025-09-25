@@ -32,3 +32,6 @@ function Car(model, price,year){
         console.log(`${this.model} ${this.price} ${this.year}`)
     }
 }
+
+const car1 = new Car('2024','200000','2024')
+console.log(car1)
