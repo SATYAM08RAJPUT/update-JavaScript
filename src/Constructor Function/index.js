@@ -22,3 +22,13 @@ const const2 = new Person('Himanshu',34)
 const2.greet()
 const const3 = new Person("Nushu", "40")
 const3.greet()
+
+
+function Car(model, price,year){
+    this.model = model;
+    this.price = price;
+    this.year =year
+    this.start= function(){
+        console.log(`${this.model} ${this.price} ${this.year}`)
+    }
+}
