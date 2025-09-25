@@ -35,3 +35,5 @@ function Car(model, price,year){
 
 const car1 = new Car('2024','200000','2024')
 console.log(car1)
+const car2 = new Car('1221','Honda','233')
+console.log(car2)
