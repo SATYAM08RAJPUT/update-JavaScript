@@ -25,4 +25,5 @@ console.log(btn)
 
 btn.addEventListener('click',function(){
     alert('Weocme to Buton')
+    addClass.style.backGroundColor = "red"
 })
