@@ -22,3 +22,7 @@ console.log("Seen append of a para into a Div: ",addClass)
 
 let btn = document.getElementById("btn")
 console.log(btn)
+
+btn.addEventListener('click',function(){
+    alert('Weocme to Buton')
+})
