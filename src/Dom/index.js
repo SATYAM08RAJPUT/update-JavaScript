@@ -19,3 +19,6 @@ console.log(createPara)
 createPara.innerText = "WELCOME TO PARA"
 addClass.appendChild(createPara)
 console.log("Seen append of a para into a Div: ",addClass)
+
+let btn = document.getElementById("btn")
+console.log(btn)
