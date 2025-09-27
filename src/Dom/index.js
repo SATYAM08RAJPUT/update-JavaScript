@@ -18,4 +18,4 @@ let createPara = document.createElement("p");
 console.log(createPara)
 createPara.innerText = "WELCOME TO PARA"
 addClass.appendChild(createPara)
-console.log(addClass)
+console.log("Seen append of a para into a Div: ",addClass)
