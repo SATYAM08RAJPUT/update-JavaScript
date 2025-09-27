@@ -12,4 +12,7 @@ addClass.innerHTML = "Welcome to class"
 
 let subclass = document.querySelectorAll('div')[0]
 console.log("all Div: ",subclass)
-subclass.innerText  =" SATYAM RAJPUT"
+subclass.innerText  =" SATYAM RAJPUT";
+
+let createPara = document.createElement("p");
+console.log(createPara)
