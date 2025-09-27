@@ -17,3 +17,4 @@ subclass.innerText  =" SATYAM RAJPUT";
 let createPara = document.createElement("p");
 console.log(createPara)
 createPara.innerText = "WELCOME TO PARA"
+addClass.appendChild(createPara)
