@@ -11,5 +11,5 @@ console.log("Add a class: ",addClass)
 addClass.innerHTML = "Welcome to class"
 
 let subclass = document.querySelectorAll('div')[0]
-console.log(subclass)
+console.log("all Div: ",subclass)
 subclass.innerText  =" SATYAM RAJPUT"
