@@ -7,5 +7,5 @@ getID.innerText ="WELCOME G"
 getID.textContent = "Welcome"
 
 let addClass = document.querySelector('.add')
-console.log(addClass)
+console.log("Add a class: ",addClass)
 addClass.innerHTML = "Welcome to class"
