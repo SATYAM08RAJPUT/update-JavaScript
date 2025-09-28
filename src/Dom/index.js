@@ -9,3 +9,7 @@ getID.textContent = "Welcome"
 let addClass = document.querySelector('.add')
 console.log("Add a class: ",addClass)
 addClass.innerHTML = "Welcome to class"
+
+let subclass = document.querySelectorAll('div')[0]
+console.log(subclass)
+subclass.innerText  =" SATYAM RAJPUT"
