@@ -4,3 +4,4 @@ console.log("GetId: ",getID)
 getID.innerHTML = "WELCOME TO DOM";
 getID.innerHTML = "WECOME TO SECOND DOM";
 getID.innerText ="WELCOME G"
+getID.textContent = "Welcome"
