@@ -1,3 +1,3 @@
 console.log("WELCOME TO DOM")
 let getID = document.getElementById("app")
-console.log(getID)
+console.log("GetId: ",getID)
