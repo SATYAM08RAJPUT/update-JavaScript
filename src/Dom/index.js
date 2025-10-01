@@ -61,3 +61,7 @@ addFruitsbtn.addEventListener('click',() => {
     createLi.textContent = "Mango"
     fruits.append(createLi)
 })
+
+
+// Done of add list Items
+// Delete an Element
