@@ -62,6 +62,5 @@ addFruitsbtn.addEventListener('click',() => {
     fruits.append(createLi)
 })
 
-
-// Done of add list Items
+//  Done of add list Items
 // Delete an Element
