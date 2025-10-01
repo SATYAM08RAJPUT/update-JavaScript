@@ -57,7 +57,7 @@ console.log("Add Fruit Button: ",addFruitsbtn)
 
 addFruitsbtn.addEventListener('click',() => {
     let createLi = document.createElement('li')
-    console.log(createLi)
+    console.log("Create Id: ",createLi)
     createLi.textContent = "Mango"
     fruits.append(createLi)
 })
