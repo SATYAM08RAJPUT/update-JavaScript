@@ -56,5 +56,6 @@ let addFruitsbtn = document.querySelector(".fruitsClass")
 console.log("Add Fruit Button: ",addFruitsbtn)
 
 addFruitsbtn.addEventListener('click',() => {
-    console.log('Hello Fruits')
+    let createLi = document.createElement('li')
+    console.log(createLi)
 })
