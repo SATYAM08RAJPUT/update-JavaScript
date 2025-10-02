@@ -49,3 +49,8 @@ tooglebtn.addEventListener('click',() => {
 // Done Toggle
 
 // Add New List Item
+
+let fruits = document.getElementById("fruitId")
+console.log(fruits)
+let addFruitsbtn = document.querySelector(".fruitsClass")
+console.log(addFruitsbtn)
