@@ -54,3 +54,7 @@ let fruits = document.getElementById("fruitId")
 console.log("All Fruits Name: ",fruits)
 let addFruitsbtn = document.querySelector(".fruitsClass")
 console.log("Add Fruit Button: ",addFruitsbtn)
+
+addFruitsbtn.addEventListener('click',() => {
+    console.log('Hello Fruits')
+})
