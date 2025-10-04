@@ -39,3 +39,6 @@ chnageBtn.addEventListener('click',() => {
 })
 
 // Toggle Dark Mode (Change Styles)
+
+let tooglebtn = document.getElementById("toggle")
+console.log("toggleBtn", tooglebtn)
