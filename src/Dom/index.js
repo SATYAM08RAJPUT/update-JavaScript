@@ -44,5 +44,5 @@ let tooglebtn = document.getElementById("toggle")
 console.log("toggleBtn", tooglebtn)
 
 tooglebtn.addEventListener('click',() => {
-    console.log("YeS toggle")
+    document.body.style.backgroundColor = "black"
 })
