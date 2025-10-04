@@ -42,3 +42,7 @@ chnageBtn.addEventListener('click',() => {
 
 let tooglebtn = document.getElementById("toggle")
 console.log("toggleBtn", tooglebtn)
+
+tooglebtn.addEventListener('click',() => {
+    console.log("YeS toggle")
+})
