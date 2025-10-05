@@ -35,5 +35,5 @@ let chnageBtn =document.querySelector('.btnChange')
 console.log(chnageBtn)
 
 chnageBtn.addEventListener('click',() => {
-    console.log('Yes Satyam')
+    headingId.textContent = "Hi Kishor"
 })
