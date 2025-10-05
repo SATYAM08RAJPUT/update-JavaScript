@@ -37,3 +37,5 @@ console.log(chnageBtn)
 chnageBtn.addEventListener('click',() => {
     headingId.textContent = "Hi Kishor"
 })
+
+// Toggle Dark Mode (Change Styles)
