@@ -28,3 +28,5 @@ btn.addEventListener('click',function(){
     addClass.style.backGroundColor = "red"
 })
 
+let headingId = document.getElementById("title")
+console.log(headingId)
