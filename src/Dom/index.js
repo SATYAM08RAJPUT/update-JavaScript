@@ -30,3 +30,6 @@ btn.addEventListener('click',function(){
 
 let headingId = document.getElementById("title")
 console.log(headingId)
+
+let chnageBtn =document.querySelector('.btnChange')
+console.log(chnageBtn)
