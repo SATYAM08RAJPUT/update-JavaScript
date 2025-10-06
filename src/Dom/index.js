@@ -64,3 +64,4 @@ addFruitsbtn.addEventListener('click',() => {
 
 //  Done of add list Items
 // Delete an Element
+console.log("Delete a element")
