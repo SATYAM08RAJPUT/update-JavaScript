@@ -66,7 +66,7 @@ addFruitsbtn.addEventListener('click',() => {
 // Delete an Element
 console.log("Delete a element")
 
-const paraId = document.getElementById("para")
+let paraId = document.getElementById("para")
 console.log(paraId)
 
 const deltBtn =  document.querySelector(".dltBtn")
@@ -74,4 +74,5 @@ console.log(deltBtn)
 
 deltBtn.addEventListener('click',() => {
     console.log('Delete for a Item')
+    paraId.remove()
 })
