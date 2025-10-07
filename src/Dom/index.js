@@ -68,3 +68,6 @@ console.log("Delete a element")
 
 const paraId = document.getElementById("para")
 console.log(paraId)
+
+const deltBtn =  document.querySelector(".dltBtn")
+console.log(deltBtn)
