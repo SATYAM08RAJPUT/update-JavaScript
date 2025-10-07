@@ -65,3 +65,6 @@ addFruitsbtn.addEventListener('click',() => {
 //  Done of add list Items
 // Delete an Element
 console.log("Delete a element")
+
+const paraId = document.getElementById("para")
+console.log(paraId)
