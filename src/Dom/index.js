@@ -78,3 +78,5 @@ deltBtn.addEventListener('click',() => {
     paraId.remove()
 })
 console.log("complete a Delete Properties")
+
+console.log("Change Image on Hover")
