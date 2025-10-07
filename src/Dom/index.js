@@ -71,3 +71,7 @@ console.log(paraId)
 
 const deltBtn =  document.querySelector(".dltBtn")
 console.log(deltBtn)
+
+deltBtn.addEventListener('click',() => {
+    console.log('Delete for a Item')
+})
