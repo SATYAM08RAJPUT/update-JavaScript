@@ -74,5 +74,6 @@ console.log(deltBtn)
 
 deltBtn.addEventListener('click',() => {
     console.log('Delete for a Item')
+    paraId.style.backgroundColor ="red"
     paraId.remove()
 })
