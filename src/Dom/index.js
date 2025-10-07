@@ -77,3 +77,4 @@ deltBtn.addEventListener('click',() => {
     paraId.style.backgroundColor ="red"
     paraId.remove()
 })
+console.log("complete a Delete Properties")
